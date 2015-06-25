@@ -1,0 +1,1183 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
+    <!ENTITY caro "http://purl.obolibrary.org/obo/caro/src/caro.obo#" >
+]>
+
+
+<rdf:RDF xmlns="&obo;caro/src/caro.obo.owl#"
+     xml:base="&obo;caro/src/caro.obo.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:caro="&obo;caro/src/caro.obo#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="&obo;caro/src/caro.obo.owl">
+        <oboInOwl:hasOBOFormatVersion rdf:datatype="&xsd;string">1.2</oboInOwl:hasOBOFormatVersion>
+        <oboInOwl:remark rdf:datatype="&xsd;string">2011-08-23</oboInOwl:remark>
+        <oboInOwl:date rdf:datatype="&xsd;string">24:06:2010 12:33</oboInOwl:date>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="&xsd;string">GO</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:default-namespace rdf:datatype="&xsd;string">caro</oboInOwl:default-namespace>
+        <oboInOwl:pairwise-disjoint rdf:datatype="&xsd;string">true</oboInOwl:pairwise-disjoint>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
+<rdfs:label xml:lang="en">definition</rdfs:label>
+<rdfs:label xml:lang="de">definition</rdfs:label>
+<rdfs:label xml:lang="es">definición</rdfs:label>
+<rdfs:label xml:lang="it">definizione</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#date -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#default-namespace -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;default-namespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasDbXref">
+<rdfs:label xml:lang="en">database_cross_reference</rdfs:label>
+<rdfs:label xml:lang="de">datenbank _ cross _ reference</rdfs:label>
+<rdfs:label xml:lang="es">base de datos de referencia _ cross _</rdfs:label>
+<rdfs:label xml:lang="it">database _ cross _ riferimento</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasExactSynonym">
+<rdfs:label xml:lang="en">has_exact_synonym</rdfs:label>
+<rdfs:label xml:lang="de">hat _ genaue _ synonym</rdfs:label>
+<rdfs:label xml:lang="es">ha _ exactos _ sinónimo</rdfs:label>
+<rdfs:label xml:lang="it">ha _ esatta _ sinonimo</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasOBOFormatVersion">
+<rdfs:label xml:lang="en">has_obo_format_version</rdfs:label>
+<rdfs:label xml:lang="de">hat _ obo _ format _ version</rdfs:label>
+<rdfs:label xml:lang="es">ha _ obo _ formato _ version</rdfs:label>
+<rdfs:label xml:lang="it">ha _ obo _ formato di _ versione</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasRelatedSynonym">
+<rdfs:label xml:lang="en">has_related_synonym</rdfs:label>
+<rdfs:label xml:lang="de">hat _ verbundenen _ synonym</rdfs:label>
+<rdfs:label xml:lang="es">ha _ relacionados _ sinónimo</rdfs:label>
+<rdfs:label xml:lang="it">ha _ relativi _ sinonimo</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#pairwise-disjoint -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;pairwise-disjoint"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-equivalent -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;treat-xrefs-as-equivalent">
+<rdfs:label xml:lang="en">treat-xrefs-as-equivalent</rdfs:label>
+<rdfs:label xml:lang="de">behandlung von-xrefs-wie-gleichwertige</rdfs:label>
+<rdfs:label xml:lang="es">tratar-xrefs-como-equivalente</rdfs:label>
+<rdfs:label xml:lang="it">trattare-xrefs-come-equivalente</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="&rdfs;label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/caro/src/caro.obo#has_quality -->
+
+    <owl:ObjectProperty rdf:about="&obo;caro/src/caro.obo#has_quality">
+<rdfs:label xml:lang="en">has_quality</rdfs:label>
+<rdfs:label xml:lang="de">hat _ qualität</rdfs:label>
+<rdfs:label xml:lang="es">tiene calidad.</rdfs:label>
+<rdfs:label xml:lang="it">ha _ qualità</rdfs:label>
+        <oboInOwl:id rdf:datatype="&xsd;string">has_quality</oboInOwl:id>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/caro/src/caro.obo#overlaps -->
+
+    <owl:ObjectProperty rdf:about="&obo;caro/src/caro.obo#overlaps">
+<rdfs:label xml:lang="en">overlaps</rdfs:label>
+<rdfs:label xml:lang="de">überschneidungen</rdfs:label>
+<rdfs:label xml:lang="es">se solapa</rdfs:label>
+<rdfs:label xml:lang="it">sovrapposizioni</rdfs:label>
+        <oboInOwl:id rdf:datatype="&xsd;string">overlaps</oboInOwl:id>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/caro/src/caro.obo#part_of -->
+
+    <owl:ObjectProperty rdf:about="&obo;caro/src/caro.obo#part_of">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+<rdfs:label xml:lang="en">part_of</rdfs:label>
+<rdfs:label xml:lang="de">der teil _</rdfs:label>
+<rdfs:label xml:lang="es">parte de</rdfs:label>
+<rdfs:label xml:lang="it">part _ di</rdfs:label>
+        <oboInOwl:id rdf:datatype="&xsd;string">part_of</oboInOwl:id>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000000 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000000">
+        <rdfs:label xml:lang="de">Anatomische Stelle</rdfs:label>
+        <rdfs:label xml:lang="en">anatomical entity</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000000</oboInOwl:id>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000000"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000003 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000003">
+<rdfs:label xml:lang="en">anatomical structure</rdfs:label>
+<rdfs:label xml:lang="de">anatomische struktur</rdfs:label>
+<rdfs:label xml:lang="es">estructuras anatómicas</rdfs:label>
+<rdfs:label xml:lang="it">struttura anatomica</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000006"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000003</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Material anatomical entity that has inherent 3D shape and is generated by coordinated expression of the organism&apos;s own genome.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Material anatomical entity that has inherent 3D shape and is generated by coordinated expression of the organism&apos;s own genome.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000003"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000004 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000004">
+<rdfs:label xml:lang="en">portion of organism substance</rdfs:label>
+<rdfs:label xml:lang="de">teil des organismus substanz</rdfs:label>
+<rdfs:label xml:lang="es">parte de la sustancia del organismo</rdfs:label>
+<rdfs:label xml:lang="it">porzione di sostanza dell ’ organismo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000006"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000004</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Material anatomical entity in a gaseous, liquid, semisolid or solid state; produced by anatomical structures or derived from inhaled and ingested substances that have been modified by anatomical structures as they pass through the body.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Material anatomical entity in a gaseous, liquid, semisolid or solid state; produced by anatomical structures or derived from inhaled and ingested substances that have been modified by anatomical structures as they pass through the body.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000004"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000005 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000005">
+<rdfs:label xml:lang="en">anatomical space</rdfs:label>
+<rdfs:label xml:lang="de">anatomische space</rdfs:label>
+<rdfs:label xml:lang="es">anatomía de espacio</rdfs:label>
+<rdfs:label xml:lang="it">spazio di anatomia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000007"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000005</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Non-material anatomical entity of three dimensions, that is generated by morphogenetic or other physiologic processes; is surrounded by one or more anatomical structures; contains one or more organism substances or anatomical structures.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Non-material anatomical entity of three dimensions, that is generated by morphogenetic or other physiologic processes; is surrounded by one or more anatomical structures; contains one or more organism substances or anatomical structures.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000005"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000006 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000006">
+<rdfs:label xml:lang="en">material anatomical entity</rdfs:label>
+<rdfs:label xml:lang="de">anatomische stelle material</rdfs:label>
+<rdfs:label xml:lang="es">importante entidad anatómicas</rdfs:label>
+<rdfs:label xml:lang="it">materiale di anatomia entità</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000000"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical entity that has mass.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000006</oboInOwl:id>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Anatomical entity that has mass.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000006"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000007 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000007">
+<rdfs:label xml:lang="en">immaterial anatomical entity</rdfs:label>
+<rdfs:label xml:lang="de">immaterielle anatomische stelle</rdfs:label>
+<rdfs:label xml:lang="es">entidad de importancia anatómica</rdfs:label>
+<rdfs:label xml:lang="it">irrilevante anatomico entità</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000000"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical entity that has no mass.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000007</oboInOwl:id>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Anatomical entity that has no mass.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000007"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000008 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000008">
+<rdfs:label xml:lang="en">anatomical line</rdfs:label>
+<rdfs:label xml:lang="de">anatomische zeile</rdfs:label>
+<rdfs:label xml:lang="es">línea anatómicas</rdfs:label>
+<rdfs:label xml:lang="it">linea anatomica</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000007"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000008</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Non-material anatomical entity of one dimension, which forms a boundary of an anatomical surface or is a modulation of an anatomical surface.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Non-material anatomical entity of one dimension, which forms a boundary of an anatomical surface or is a modulation of an anatomical surface.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000008"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000009 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000009">
+<rdfs:label xml:lang="en">anatomical point</rdfs:label>
+<rdfs:label xml:lang="de">anatomischer punkt</rdfs:label>
+<rdfs:label xml:lang="es">punto anatómico</rdfs:label>
+<rdfs:label xml:lang="it">punto anatomico</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000007"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000009</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Non-material anatomical entity of zero dimension, which forms a boundary of an anatomical line or surface.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Non-material anatomical entity of zero dimension, which forms a boundary of an anatomical line or surface.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000009"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000010 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000010">
+<rdfs:label xml:lang="en">anatomical surface</rdfs:label>
+<rdfs:label xml:lang="de">anatomische oberfläche</rdfs:label>
+<rdfs:label xml:lang="es">anatomía de superficie</rdfs:label>
+<rdfs:label xml:lang="it">superficie anatomica</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000007"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000010</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Non-material anatomical entity of two dimensions, that is demarcated by anatomical lines or points on the external or internal surfaces of anatomical structures.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Non-material anatomical entity of two dimensions, that is demarcated by anatomical lines or points on the external or internal surfaces of anatomical structures.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000010"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000011 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000011">
+<rdfs:label xml:lang="en">anatomical system</rdfs:label>
+<rdfs:label xml:lang="de">anatomische system</rdfs:label>
+<rdfs:label xml:lang="es">sistema anatómicas</rdfs:label>
+<rdfs:label xml:lang="it">sistema di anatomia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000054"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical group that is has as its parts distinct anatomical structures interconnected by anatomical structures at a lower level of granularity.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000011</oboInOwl:id>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Anatomical group that is has as its parts distinct anatomical structures interconnected by anatomical structures at a lower level of granularity.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000011"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000012 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000012">
+<rdfs:label xml:lang="en">multi-cellular organism</rdfs:label>
+<rdfs:label xml:lang="de">multi-zellulären organismus</rdfs:label>
+<rdfs:label xml:lang="es">multi-organismo celular</rdfs:label>
+<rdfs:label xml:lang="it">multi-organismo alveolare</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000003"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical structure that is an individual member of a species and consists of more than one cell.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000012</oboInOwl:id>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Anatomical structure that is an individual member of a species and consists of more than one cell.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000012"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000013 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000013">
+<rdfs:label xml:lang="en">cell</rdfs:label>
+<rdfs:label xml:lang="de">zelle</rdfs:label>
+<rdfs:label xml:lang="es">celda</rdfs:label>
+<rdfs:label xml:lang="it">cellulare</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000003"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical structure that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000013</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GO:0005623</oboInOwl:hasDbXref>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Anatomical structure that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000013"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000014 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000014">
+<rdfs:label xml:lang="en">cell component</rdfs:label>
+<rdfs:label xml:lang="de">zelle komponente</rdfs:label>
+<rdfs:label xml:lang="es">componente móvil</rdfs:label>
+<rdfs:label xml:lang="it">cella componente</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;caro/src/caro.obo#part_of"/>
+                <owl:someValuesFrom rdf:resource="&obo;CARO_0000013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical structure that is a direct part of the cell.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000014</oboInOwl:id>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Anatomical structure that is a direct part of the cell.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000014"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000019 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000019">
+<rdfs:label xml:lang="en">compound organ component</rdfs:label>
+<rdfs:label xml:lang="de">substanz organ komponente</rdfs:label>
+<rdfs:label xml:lang="es">componente orgánico compuesto</rdfs:label>
+<rdfs:label xml:lang="it">componente organo composto</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000055"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;caro/src/caro.obo#part_of"/>
+                <owl:someValuesFrom rdf:resource="&obo;CARO_0000024"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000019</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Multi-tissue structure that is part of a compound organ.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Multi-tissue structure that is part of a compound organ.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000019"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000021 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000021">
+<rdfs:label xml:lang="en">simple organ</rdfs:label>
+<rdfs:label xml:lang="de">einfache organ</rdfs:label>
+<rdfs:label xml:lang="es">simple órgano</rdfs:label>
+<rdfs:label xml:lang="it">un semplice organo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000055"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000021</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Multi-tissue structure that is not part of a compound organ.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Multi-tissue structure that is not part of a compound organ.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000021"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000024 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000024">
+<rdfs:label xml:lang="en">compound organ</rdfs:label>
+<rdfs:label xml:lang="de">substanz organ</rdfs:label>
+<rdfs:label xml:lang="es">compuesto orgánico</rdfs:label>
+<rdfs:label xml:lang="it">un organo composto</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000003"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical structure that has as its parts two or more multi-tissue structures of at least two different types and which through specific morphogenetic processes forms a single distinct structural unit demarcated by bona fide boundaries from other distinct anatomical structures of different types.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000024</oboInOwl:id>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Anatomical structure that has as its parts two or more multi-tissue structures of at least two different types and which through specific morphogenetic processes forms a single distinct structural unit demarcated by bona fide boundaries from other distinct anatomical structures of different types.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000024"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000027 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000027">
+<rdfs:label xml:lang="en">male organism</rdfs:label>
+<rdfs:label xml:lang="de">männliche organismus</rdfs:label>
+<rdfs:label xml:lang="es">organismo masculino</rdfs:label>
+<rdfs:label xml:lang="it">organismo maschile</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000048"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000027</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Gonochoristic organism that can produce male gametes.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Gonochoristic organism that can produce male gametes.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000027"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000028 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000028">
+<rdfs:label xml:lang="en">female organism</rdfs:label>
+<rdfs:label xml:lang="de">weiblichen organismus</rdfs:label>
+<rdfs:label xml:lang="es">organismo femenino</rdfs:label>
+<rdfs:label xml:lang="it">organismo femminile</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000048"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000028</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Gonochoristic organism that can produce female gametes.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Gonochoristic organism that can produce female gametes.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000028"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000029 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000029">
+<rdfs:label xml:lang="en">hermaphroditic organism</rdfs:label>
+<rdfs:label xml:lang="de">hermaphroditische organismus</rdfs:label>
+<rdfs:label xml:lang="es">organismo hermafrodita</rdfs:label>
+<rdfs:label xml:lang="it">organismo hermaphroditic</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000012"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000029</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Multi-cellular organism that can produce both male and female gametes.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">dioecious organism</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Multi-cellular organism that can produce both male and female gametes.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000029"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000030 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000030">
+<rdfs:label xml:lang="en">asexual organism</rdfs:label>
+<rdfs:label xml:lang="de">asexuelle organismen</rdfs:label>
+<rdfs:label xml:lang="es">organismo asexual</rdfs:label>
+<rdfs:label xml:lang="it">organismi asessuati</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000012"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000030</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Multi-cellular organism that does not produce gametes.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Multi-cellular organism that does not produce gametes.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000030"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000032 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000032">
+<rdfs:label xml:lang="en">organism subdivision</rdfs:label>
+<rdfs:label xml:lang="de">organismus unterteilung</rdfs:label>
+<rdfs:label xml:lang="es">organismo subdivisión</rdfs:label>
+<rdfs:label xml:lang="it">organismo di compartimentazione</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000003"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical structure which is a primary subdivision of whole organism. The mereological sum of these is the whole organism.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000032</oboInOwl:id>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Anatomical structure which is a primary subdivision of whole organism. The mereological sum of these is the whole organism.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000032"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000040 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000040">
+<rdfs:label xml:lang="en">acellular anatomical structure</rdfs:label>
+<rdfs:label xml:lang="de">azellulärer anatomischen struktur</rdfs:label>
+<rdfs:label xml:lang="es">acelular estructuras anatómicas</rdfs:label>
+<rdfs:label xml:lang="it">acellulare struttura anatomica</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000003"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical structure that consists of cell parts and cell substances and together does not constitute a cell or a tissue.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000040</oboInOwl:id>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Anatomical structure that consists of cell parts and cell substances and together does not constitute a cell or a tissue.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000040"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000041 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000041">
+<rdfs:label xml:lang="en">anatomical cluster</rdfs:label>
+<rdfs:label xml:lang="de">anatomische sternhaufen</rdfs:label>
+<rdfs:label xml:lang="es">anatomía de</rdfs:label>
+<rdfs:label xml:lang="it">cluster anatomica</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000054"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical group that has its parts adjacent to one another.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000041</oboInOwl:id>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Anatomical group that has its parts adjacent to one another.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000041"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000042 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000042">
+<rdfs:label xml:lang="en">extraembryonic structure</rdfs:label>
+<rdfs:label xml:lang="de">extraembryonic struktur</rdfs:label>
+<rdfs:label xml:lang="es">extraembryonic estructura</rdfs:label>
+<rdfs:label xml:lang="it">extraembryonic struttura</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000003"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical structure that is contiguous with the embryo and is comprised of portions of tissue or cells that will not contribute to the embryo.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000042</oboInOwl:id>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Anatomical structure that is contiguous with the embryo and is comprised of portions of tissue or cells that will not contribute to the embryo.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000042"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000043 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000043">
+<rdfs:label xml:lang="en">portion of tissue</rdfs:label>
+<rdfs:label xml:lang="de">teil des gewebes</rdfs:label>
+<rdfs:label xml:lang="es">parte del tejido.</rdfs:label>
+<rdfs:label xml:lang="it">parte di tessuto</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000003"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical structure, that consists of similar cells and intercellular matrix, aggregated according to genetically determined spatial relationships.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000043</oboInOwl:id>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Anatomical structure, that consists of similar cells and intercellular matrix, aggregated according to genetically determined spatial relationships.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000043"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000045 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000045">
+<rdfs:label xml:lang="en">sequential hermaphroditic organism</rdfs:label>
+<rdfs:label xml:lang="de">sequentielle hermaphroditische organismus</rdfs:label>
+<rdfs:label xml:lang="es">organismo hermafrodita secuencial</rdfs:label>
+<rdfs:label xml:lang="it">organismo hermaphroditic sequenziale</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000029"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000045</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Hermaphroditic organism that produces gametes first of one sex, and then later of the other sex.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">consecutive hermaphroditic organism</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Hermaphroditic organism that produces gametes first of one sex, and then later of the other sex.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000045"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000046 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000046">
+<rdfs:label xml:lang="en">synchronous hermaphroditic organism</rdfs:label>
+<rdfs:label xml:lang="de">synchrone hermaphroditische organismus</rdfs:label>
+<rdfs:label xml:lang="es">un organismo hermafrodita</rdfs:label>
+<rdfs:label xml:lang="it">organismo hermaphroditic sincrona</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000029"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000046</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Hermaphroditic organism that produces both male and female gametes at the same time.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">serially hermaphroditic organism</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Hermaphroditic organism that produces both male and female gametes at the same time.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000046"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000048 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000048">
+<rdfs:label xml:lang="en">gonochoristic organism</rdfs:label>
+<rdfs:label xml:lang="de">gonochoristic organismus</rdfs:label>
+<rdfs:label xml:lang="es">organismo gonochoristic</rdfs:label>
+<rdfs:label xml:lang="it">organismo gonochoristic</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000012"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000048</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Multi-cellular organism that has male and female sexes.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">monoecious organism</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Multi-cellular organism that has male and female sexes.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000048"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000049 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000049">
+<rdfs:label xml:lang="en">protandrous hermaphroditic organism</rdfs:label>
+<rdfs:label xml:lang="de">protandrous hermaphroditische organismus</rdfs:label>
+<rdfs:label xml:lang="es">protandrous hermafroditas organismo</rdfs:label>
+<rdfs:label xml:lang="it">protandrous hermaphroditic organismo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000045"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000049</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Sequential hermaphroditic organism that produces\ngametes first of the male sex, and then later of the\nfemale sex.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Sequential hermaphroditic organism that produces\ngametes first of the male sex, and then later of the\nfemale sex.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000049"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000050 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000050">
+<rdfs:label xml:lang="en">protogynous hermaphroditic organism</rdfs:label>
+<rdfs:label xml:lang="de">protogynous hermaphroditische organismus</rdfs:label>
+<rdfs:label xml:lang="es">protogynous hermafroditas organismo</rdfs:label>
+<rdfs:label xml:lang="it">protogynous hermaphroditic organismo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000045"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000050</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Sequential hermaphroditic organism that produces\ngametes first of the female sex, and then later of the\nmale sex.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Sequential hermaphroditic organism that produces\ngametes first of the female sex, and then later of the\nmale sex.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000050"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000054 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000054">
+<rdfs:label xml:lang="en">anatomical group</rdfs:label>
+<rdfs:label xml:lang="de">anatomische gruppe</rdfs:label>
+<rdfs:label xml:lang="es">grupo anatómicas</rdfs:label>
+<rdfs:label xml:lang="it">gruppo anatomica</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000003"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical structure consisting of at least two non-overlapping organs, multi-tissue aggregates or portion of tissues or cells of different types that does not constitute an organism, organ, multi-tissue aggregate, or portion of tissue.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000054</oboInOwl:id>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Anatomical structure consisting of at least two non-overlapping organs, multi-tissue aggregates or portion of tissues or cells of different types that does not constitute an organism, organ, multi-tissue aggregate, or portion of tissue.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000054"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000055 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000055">
+<rdfs:label xml:lang="en">multi-tissue structure</rdfs:label>
+<rdfs:label xml:lang="de">multi-gewebe struktur</rdfs:label>
+<rdfs:label xml:lang="es">multi-estructura tisular</rdfs:label>
+<rdfs:label xml:lang="it">multi-struttura tissutale</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000003"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical structure that has as its parts two or more portions of tissue of at least two different types and which through specific morphogenetic processes forms a single distinct structural unit demarcated by bona-fide boundaries from other distinct structural units of different types.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000055</oboInOwl:id>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Anatomical structure that has as its parts two or more portions of tissue of at least two different types and which through specific morphogenetic processes forms a single distinct structural unit demarcated by bona-fide boundaries from other distinct structural units of different types.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000055"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000062 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000062">
+<rdfs:label xml:lang="en">cell space</rdfs:label>
+<rdfs:label xml:lang="de">zelle space</rdfs:label>
+<rdfs:label xml:lang="es">celda de espacio</rdfs:label>
+<rdfs:label xml:lang="it">cella spazio</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000005"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical space that is part of a cell.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000062</oboInOwl:id>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Anatomical space that is part of a cell.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:mah</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000062"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000063 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000063">
+<rdfs:label xml:lang="en">portion of cell substance</rdfs:label>
+<rdfs:label xml:lang="de">teil der zelle substanz</rdfs:label>
+<rdfs:label xml:lang="es">parte de la sustancia</rdfs:label>
+<rdfs:label xml:lang="it">porzione di sostanza cellulare</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000004"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000063</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Portion of organism substance located within a cell.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:mah</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Portion of organism substance located within a cell.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000063"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000064 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000064">
+<rdfs:label xml:lang="en">single cell organism</rdfs:label>
+<rdfs:label xml:lang="de">einzelne zelle organismus</rdfs:label>
+<rdfs:label xml:lang="es">organismo único</rdfs:label>
+<rdfs:label xml:lang="it">singola cellula organismo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000013"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000064</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Cell that is an individual member of a species.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Cell that is an individual member of a species.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000064"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000065 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000065">
+<rdfs:label xml:lang="en">basal lamina</rdfs:label>
+<rdfs:label xml:lang="de">flügelplatte basal</rdfs:label>
+<rdfs:label xml:lang="es">lámina basal</rdfs:label>
+<rdfs:label xml:lang="it">lamina basale</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Acellular anatomical structure that consists of a thin sheet of fibrous proteins that underlie and support the cells of an epithelium. It separates the cells of an epithelium from any underlying tissue.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000065</oboInOwl:id>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Acellular anatomical structure that consists of a thin sheet of fibrous proteins that underlie and support the cells of an epithelium. It separates the cells of an epithelium from any underlying tissue.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000065"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000066 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000066">
+<rdfs:label xml:lang="en">epithelium</rdfs:label>
+<rdfs:label xml:lang="de">waren</rdfs:label>
+<rdfs:label xml:lang="es">epitelio</rdfs:label>
+<rdfs:label xml:lang="it">epitelio</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000043"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000066</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Portion of tissue, that consists of one or more layers of epithelial cells connected to each other by cell junctions and which is underlain by a basal lamina.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Portion of tissue, that consists of one or more layers of epithelial cells connected to each other by cell junctions and which is underlain by a basal lamina.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000066"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000067 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000067">
+<rdfs:label xml:lang="en">simple cuboidal epithelium</rdfs:label>
+<rdfs:label xml:lang="de">einfache cuboidal waren</rdfs:label>
+<rdfs:label xml:lang="es">simple cuboidal epitelio</rdfs:label>
+<rdfs:label xml:lang="it">semplice cuboidal epitelio</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000073"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000067</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Unilaminar epithelium that consists of a single layer of cuboidal cells.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Unilaminar epithelium that consists of a single layer of cuboidal cells.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000067"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000068 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000068">
+<rdfs:label xml:lang="en">simple columnar epithlium</rdfs:label>
+<rdfs:label xml:lang="de">einfache in spalten epithlium</rdfs:label>
+<rdfs:label xml:lang="es">simple columna epithlium</rdfs:label>
+<rdfs:label xml:lang="it">semplice epithlium colonne</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000073"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000068</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Unilaminar epithelium that consists of a single layer of columnar cells.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Unilaminar epithelium that consists of a single layer of columnar cells.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000068"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000069 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000069">
+<rdfs:label xml:lang="en">multilaminar epithelium</rdfs:label>
+<rdfs:label xml:lang="de">multilaminar waren</rdfs:label>
+<rdfs:label xml:lang="es">epitelio multilaminar</rdfs:label>
+<rdfs:label xml:lang="it">epitelio multilaminar</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000066"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000069</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Epithelium that consists of more than one layer of epithelial cells.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Epithelium that consists of more than one layer of epithelial cells.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000069"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000070 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000070">
+<rdfs:label xml:lang="en">simple squamous epithelium</rdfs:label>
+<rdfs:label xml:lang="de">einfache plattenepithel- waren</rdfs:label>
+<rdfs:label xml:lang="es">epitelio escamoso simple</rdfs:label>
+<rdfs:label xml:lang="it">semplice dell ’ epitelio squamoso</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000073"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000070</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Unilaminar epithelium that consists of a single layer of squamous cells.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Unilaminar epithelium that consists of a single layer of squamous cells.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000070"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000071 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000071">
+<rdfs:label xml:lang="en">atypical epithelium</rdfs:label>
+<rdfs:label xml:lang="de">atypische waren</rdfs:label>
+<rdfs:label xml:lang="es">epitelio atípicos</rdfs:label>
+<rdfs:label xml:lang="it">epitelio atipica</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000066"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000071</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Epithelium that consists of epithelial cells not arranged in one ore more layers.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Epithelium that consists of epithelial cells not arranged in one ore more layers.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000071"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000072 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000072">
+<rdfs:label xml:lang="en">cavitated compound organ</rdfs:label>
+<rdfs:label xml:lang="de">cavitated substanz organ</rdfs:label>
+<rdfs:label xml:lang="es">cavitated compuesto orgánico</rdfs:label>
+<rdfs:label xml:lang="it">un organo composto di cavitazione,</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000024"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000072</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Compound organ that contains one or more macroscopic anatomical spaces.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Compound organ that contains one or more macroscopic anatomical spaces.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000072"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000073 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000073">
+<rdfs:label xml:lang="en">unilaminar epithelium</rdfs:label>
+<rdfs:label xml:lang="de">unilaminar waren</rdfs:label>
+<rdfs:label xml:lang="es">epitelio unilaminar</rdfs:label>
+<rdfs:label xml:lang="it">epitelio unilaminar</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000066"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000073</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Epithelium that consists of a single layer of epithelial cells.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Epithelium that consists of a single layer of epithelial cells.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000073"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000074 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000074">
+<rdfs:label xml:lang="en">solid compound organ</rdfs:label>
+<rdfs:label xml:lang="de">verbindung organ</rdfs:label>
+<rdfs:label xml:lang="es">compuesto sólido órgano</rdfs:label>
+<rdfs:label xml:lang="it">un organo composto solido</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000024"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000074</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Compound organ that does not contain macroscopic anatomical spaces.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Compound organ that does not contain macroscopic anatomical spaces.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000074"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000077 -->
+
+    <owl:Class rdf:about="&obo;CARO_0000077">
+<rdfs:label xml:lang="en">epithelial cell</rdfs:label>
+<rdfs:label xml:lang="de">epithelialen zelle</rdfs:label>
+<rdfs:label xml:lang="es">las células epiteliales</rdfs:label>
+<rdfs:label xml:lang="it">cellule epiteliali</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000013"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0000077</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Cell which has as its part a cytoskeleton that allows for tight cell to cell contact and which has apical-basal cell polarity.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:MAH</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Cell which has as its part a cytoskeleton that allows for tight cell to cell contact and which has apical-basal cell polarity.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0000077"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0001000 -->
+
+    <owl:Class rdf:about="&obo;CARO_0001000">
+<rdfs:label xml:lang="en">multi-cell-component structure</rdfs:label>
+<rdfs:label xml:lang="de">multi-zelle-komponente struktur</rdfs:label>
+<rdfs:label xml:lang="es">multi-@-@ componente estructura celular</rdfs:label>
+<rdfs:label xml:lang="it">multi-@-@ componente struttura cellulare</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000003"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A structure consisting of multiple cell components but which is not itself a cell and does not have (complete) cells as a part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0001000</oboInOwl:id>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">A structure consisting of multiple cell components but which is not itself a cell and does not have (complete) cells as a part.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0001000"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0001001 -->
+
+    <owl:Class rdf:about="&obo;CARO_0001001">
+<rdfs:label xml:lang="en">neuron projection bundle</rdfs:label>
+<rdfs:label xml:lang="de">dummkopf projektion bündel</rdfs:label>
+<rdfs:label xml:lang="es">neurona proyección paquete</rdfs:label>
+<rdfs:label xml:lang="it">neurone proiezione bundle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0001000"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A fasciculated bundle of neuron projections (GO:0043005), largely or completely lacking synapses.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CARO:0001001</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">nerve fiber bundle</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">nerve fiber bundle</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0001001"/>
+        <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">A fasciculated bundle of neuron projections (GO:0043005), largely or completely lacking synapses.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;CARO_0001001"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->

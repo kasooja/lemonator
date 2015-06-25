@@ -1,0 +1,59 @@
+Source Label, German Label, Spanish Label, Italian Label
+has_obo_format_version, Hat _ obo _ format _ version, ha _ obo _ formato _ version, ha _ obo _ formato di _ versione, _ formáid _ ag _ obo leagan
+has_exact_synonym, Hat _ genaue _ Synonym, ha _ exactos _ sinónimo, ha _ esatta _ sinonimo, ainm _ ag _ cruinn
+treat-xrefs-as-equivalent, Behandlung von-xrefs-wie-gleichwertige, tratar-xrefs-como-equivalente, trattare-xrefs-come-equivalente, cóireáil-xrefs-mar-coibhéiseach
+definition, Definition, definición, definizione, míniú
+has_related_synonym, Hat _ verbundenen _ Synonym, ha _ relacionados _ sinónimo, ha _ relativi _ sinonimo, ainm _ ag _ gaolmhara
+database_cross_reference, Datenbank _ CROSS _ reference, base de datos de referencia _ cross _, database _ cross _ riferimento, bunachar sonraí _ an _ tagartha
+has_quality, Hat _ Qualität, tiene calidad., ha _ qualità, ag _ cáilíochta
+overlaps, Überschneidungen, se solapa, sovrapposizioni, overlaps
+part_of, Der Teil _, parte de, part _ di, _ de chuid
+anatomical entity, Anatomische Stelle, entidad anatómicas, entità anatomica, aonán anatamaíoch
+anatomical structure, Anatomische Struktur, estructuras anatómicas, struttura anatomica, coirpeog
+portion of organism substance, Teil des Organismus Substanz, parte de la sustancia del organismo, porzione di sostanza dell ’ organismo, an chuid den ábhar orgánach
+anatomical space, Anatomische Space, anatomía de espacio, spazio di anatomia, spás anatamaíoch
+material anatomical entity, Anatomische Stelle Material, importante entidad anatómicas, materiale di anatomia entità, ábhar eintiteas anatamaíoch
+immaterial anatomical entity, Immaterielle anatomische Stelle, entidad de importancia anatómica, irrilevante anatomico entità, ní eintiteas anatamaíoch
+anatomical line, Anatomische Zeile, línea anatómicas, linea anatomica, líne anatamaíoch
+anatomical point, Anatomischer Punkt, punto anatómico, punto anatomico, pointe anatamaíoch
+anatomical surface, Anatomische Oberfläche, anatomía de superficie, superficie anatomica, dromchla anatamaíoch
+anatomical system, Anatomische System, sistema anatómicas, sistema di anatomia, córas anatamaíoch
+multi-cellular organism, Multi-zellulären Organismus, multi-organismo celular, multi-organismo alveolare, il--orgánach ceallach
+cell, Zelle, celda, cellulare, cill
+cell component, Zelle Komponente, componente móvil, cella componente, cill comhpháirte
+compound organ component, Substanz Organ Komponente, componente orgánico compuesto, componente organo composto, orgán comhábhar cumaisc
+simple organ, Einfache Organ, simple órgano, un semplice organo, orgán simplí
+compound organ, Substanz Organ, compuesto orgánico, un organo composto, orgán cumaisc
+male organism, Männliche Organismus, organismo masculino, organismo maschile, fear orgánach
+female organism, Weiblichen Organismus, organismo femenino, organismo femminile, baineann orgánach
+hermaphroditic organism, Hermaphroditische Organismus, organismo hermafrodita, organismo hermaphroditic, hermaphroditic orgánach
+asexual organism, Asexuelle Organismen, organismo asexual, organismi asessuati, orgánach éighnéasach
+organism subdivision, Organismus Unterteilung, organismo subdivisión, organismo di compartimentazione, orgánach foroinnt
+acellular anatomical structure, Azellulärer anatomischen Struktur, acelular estructuras anatómicas, acellulare struttura anatomica, éigeallach coirpeog
+anatomical cluster, Anatomische Sternhaufen, anatomía de, cluster anatomica, braisle anatamaíoch
+extraembryonic structure, Extraembryonic Struktur, extraembryonic estructura, extraembryonic struttura, struchtúr extraembryonic
+portion of tissue, Teil des Gewebes, parte del tejido., parte di tessuto, fíochán de chuid
+sequential hermaphroditic organism, Sequentielle hermaphroditische Organismus, organismo hermafrodita secuencial, organismo hermaphroditic sequenziale, orgánach hermaphroditic seicheamhach
+synchronous hermaphroditic organism, Synchrone hermaphroditische Organismus, un organismo hermafrodita, organismo hermaphroditic sincrona, orgánach hermaphroditic sioncronach
+gonochoristic organism, Gonochoristic Organismus, organismo gonochoristic, organismo gonochoristic, gonochoristic orgánach
+protandrous hermaphroditic organism, Protandrous hermaphroditische Organismus, protandrous hermafroditas organismo, protandrous hermaphroditic organismo, luathfhireannach hermaphroditic orgánach
+protogynous hermaphroditic organism, Protogynous hermaphroditische Organismus, protogynous hermafroditas organismo, protogynous hermaphroditic organismo, luathbhaineannach hermaphroditic orgánach
+anatomical group, Anatomische Gruppe, grupo anatómicas, gruppo anatomica, grúpa anatamaíoch
+multi-tissue structure, Multi-gewebe Struktur, multi-estructura tisular, multi-struttura tissutale, il--struchtúr fíocháin
+cell space, Zelle Space, celda de espacio, cella spazio, cill spáis
+portion of cell substance, Teil der Zelle Substanz, parte de la sustancia, porzione di sostanza cellulare, an chuid den tsubstaint cille
+single cell organism, Einzelne Zelle Organismus, organismo único, singola cellula organismo, orgánach ceall singil
+basal lamina, Flügelplatte Basal, lámina basal, lamina basale, lann bunaidh
+epithelium, Waren, epitelio, epitelio, eipitéiliam
+simple cuboidal epithelium, Einfache cuboidal waren, simple cuboidal epitelio, semplice cuboidal epitelio, eipitéiliam ciúbóidiúil simplí
+simple columnar epithlium, Einfache in Spalten epithlium, simple columna epithlium, semplice epithlium colonne, epithlium simplí colúnach
+multilaminar epithelium, Multilaminar waren, epitelio multilaminar, epitelio multilaminar, eipitéiliam multilaminar
+simple squamous epithelium, Einfache Plattenepithel- waren, epitelio escamoso simple, semplice dell ’ epitelio squamoso, eipitéiliam gainneach simplí
+atypical epithelium, Atypische waren, epitelio atípicos, epitelio atipica, eipitéiliam neamhthipiciúil
+cavitated compound organ, Cavitated Substanz Organ, cavitated compuesto orgánico, "un organo composto di cavitazione,
+", orgán cavitated cumaisc
+unilaminar epithelium, Unilaminar waren, epitelio unilaminar, epitelio unilaminar, eipitéiliam unilaminar
+solid compound organ, Verbindung Organ, compuesto sólido órgano, un organo composto solido, meascán d & apos; aon organ soladach
+epithelial cell, Epithelialen Zelle, las células epiteliales, cellule epiteliali, cill eipitéiliach
+multi-cell-component structure, Multi-zelle-komponente Struktur, multi-@-@ componente estructura celular, multi-@-@ componente struttura cellulare, cill-il--struchtúr comhpháirte
+neuron projection bundle, Dummkopf Projektion Bündel, neurona proyección paquete, neurone proiezione bundle, teilgean beart néarón

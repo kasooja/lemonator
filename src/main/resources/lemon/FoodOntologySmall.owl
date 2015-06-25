@@ -1,0 +1,770 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY recipe "http://lordb.org/recipe/" >
+    <!ENTITY dc "http://purl.org/dc/terms/" >
+    <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
+    <!ENTITY food "http://lordb.org/ontology/" >
+    <!ENTITY dbpedia "http://dbpedia.org/resource/" >
+    <!ENTITY ingredient "http://lordb.org/ingredient/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY lemon "http://www.monnetproject.eu/lemon#" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:dc="http://purl.org/dc/terms/"
+     xmlns:recipe="http://lordb.org/recipe/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:food="http://lordb.org/ontology/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:dbpedia="http://dbpedia.org/resource/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:ingredient="http://lordb.org/ingredient/"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:lemon="http://www.monnetproject.eu/lemon#">
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://lordb.org/ingredient/Ale -->
+
+    <Class rdf:about="&ingredient;Ale"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Arm_roast -->
+
+    <Class rdf:about="&ingredient;Arm_roast">
+        <rdfs:label>Arm roast</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Beef_chuck"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Avena -->
+
+    <Class rdf:about="&ingredient;Avena">
+        <rdfs:label>Avena</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Soup_pasta"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Baking_supplies -->
+
+    <Class rdf:about="&ingredient;Baking_supplies"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Bartlett_pear -->
+
+    <Class rdf:about="&ingredient;Bartlett_pear"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Bavettine -->
+
+    <Class rdf:about="&ingredient;Bavettine">
+        <rdfs:label>Bavettine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Pasta_ribbon"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Beef_chuck -->
+
+    <Class rdf:about="&ingredient;Beef_chuck">
+        <rdfs:label xml:lang="en">Beef chuck</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Beet -->
+
+    <Class rdf:about="&ingredient;Beet"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Cake_mix -->
+
+    <Class rdf:about="&ingredient;Cake_mix"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Calf_liver -->
+
+    <Class rdf:about="&ingredient;Calf_liver">
+        <rdfs:label>Calf liver</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Liver_meat"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Candy -->
+
+    <Class rdf:about="&ingredient;Candy"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Cannolicchi -->
+
+    <Class rdf:about="&ingredient;Cannolicchi">
+        <rdfs:label>Cannolicchi</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Pasta_tube"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Chanterelle -->
+
+    <Class rdf:about="&ingredient;Chanterelle">
+        <rdfs:label>Chanterelle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Mushroom"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Chipped_beef -->
+
+    <Class rdf:about="&ingredient;Chipped_beef">
+        <rdfs:label>Chipped beef</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Dried_meats"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Citrus_fruit -->
+
+    <Class rdf:about="&ingredient;Citrus_fruit"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Citrus_fruit_juice -->
+
+    <Class rdf:about="&ingredient;Citrus_fruit_juice">
+        <rdfs:label>Citrus fruit juice</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Citrus_fruit"/>
+        <rdfs:subClassOf rdf:resource="&ingredient;Fruit_juice"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Cold_cut -->
+
+    <Class rdf:about="&ingredient;Cold_cut"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Cookies -->
+
+    <Class rdf:about="&ingredient;Cookies"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Deep-fried_tofu -->
+
+    <Class rdf:about="&ingredient;Deep-fried_tofu">
+        <rdfs:label>Deep-fried tofu</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Soy_product"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Dessert_blue_cheese -->
+
+    <Class rdf:about="&ingredient;Dessert_blue_cheese"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Dessert_wine -->
+
+    <Class rdf:about="&ingredient;Dessert_wine"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Double_chocolate_cake_mix -->
+
+    <Class rdf:about="&ingredient;Double_chocolate_cake_mix">
+        <rdfs:label>Double chocolate cake mix</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Cake_mix"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Dragge -->
+
+    <Class rdf:about="&ingredient;Dragge">
+        <rdfs:label>Dragge</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Candy"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Dressing__salad_blue_cheese -->
+
+    <Class rdf:about="&ingredient;Dressing__salad_blue_cheese"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Dressing_pasta_blue_cheese -->
+
+    <Class rdf:about="&ingredient;Dressing_pasta_blue_cheese"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Dried_meats -->
+
+    <Class rdf:about="&ingredient;Dried_meats"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Egg_concept -->
+
+    <Class rdf:about="&ingredient;Egg_concept"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Eggnog -->
+
+    <Class rdf:about="&ingredient;Eggnog">
+        <rdfs:label>Eggnog</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Liquid"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/European_herb -->
+
+    <Class rdf:about="&ingredient;European_herb"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Fat -->
+
+    <Class rdf:about="&ingredient;Fat"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Flatbread -->
+
+    <Class rdf:about="&ingredient;Flatbread"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Flour -->
+
+    <Class rdf:about="&ingredient;Flour">
+        <rdfs:label xml:lang="en">Flour</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Focaccia -->
+
+    <Class rdf:about="&ingredient;Focaccia">
+        <rdfs:label>Focaccia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Flatbread"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Foie_gras_entier -->
+
+    <Class rdf:about="&ingredient;Foie_gras_entier">
+        <rdfs:label>Foie gras entier</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Cold_cut"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Fruit_juice -->
+
+    <Class rdf:about="&ingredient;Fruit_juice"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Fruit_syrup -->
+
+    <Class rdf:about="&ingredient;Fruit_syrup"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Glutinous_rice -->
+
+    <Class rdf:about="&ingredient;Glutinous_rice">
+        <rdfs:label>Glutinous rice</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Rice"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Golden_raisin -->
+
+    <Class rdf:about="&ingredient;Golden_raisin">
+        <rdfs:label>Golden raisin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Raisin"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Green_bean -->
+
+    <Class rdf:about="&ingredient;Green_bean">
+        <rdfs:label>Green bean</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Snap_bean"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Green_pepper -->
+
+    <Class rdf:about="&ingredient;Green_pepper">
+        <rdfs:label>Green pepper</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Pepper"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Hispanic_countries_spice -->
+
+    <Class rdf:about="&ingredient;Hispanic_countries_spice">
+        <rdfs:label>Hispanic countries spice</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Spice"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/India_pale_ale -->
+
+    <Class rdf:about="&ingredient;India_pale_ale">
+        <rdfs:label>India pale ale</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Ale"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Jack_daniels -->
+
+    <Class rdf:about="&ingredient;Jack_daniels">
+        <rdfs:label>Jack daniels</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Sour-mash_whiskey"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Kudzu_powder -->
+
+    <Class rdf:about="&ingredient;Kudzu_powder">
+        <rdfs:label>Kudzu powder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Starch_thickener"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Late_harvest_wine -->
+
+    <Class rdf:about="&ingredient;Late_harvest_wine">
+        <rdfs:label>Late harvest wine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Dessert_wine"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Leaven -->
+
+    <Class rdf:about="&ingredient;Leaven"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Lemon_balm -->
+
+    <Class rdf:about="&ingredient;Lemon_balm">
+        <rdfs:label>Lemon balm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;European_herb"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Lentil -->
+
+    <Class rdf:about="&ingredient;Lentil"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Liquid -->
+
+    <Class rdf:about="&ingredient;Liquid"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Liver_meat -->
+
+    <Class rdf:about="&ingredient;Liver_meat"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Macaroon -->
+
+    <Class rdf:about="&ingredient;Macaroon">
+        <rdfs:label>Macaroon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Cookies"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Margarine -->
+
+    <Class rdf:about="&ingredient;Margarine">
+        <rdfs:label>Margarine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Fat"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Milk_and_cream -->
+
+    <Class rdf:about="&ingredient;Milk_and_cream"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Mushroom -->
+
+    <Class rdf:about="&ingredient;Mushroom"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Mussel -->
+
+    <Class rdf:about="&ingredient;Mussel"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Non-wheat_flour -->
+
+    <Class rdf:about="&ingredient;Non-wheat_flour">
+        <rdfs:label>Non-wheat flour</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Baking_supplies"/>
+        <rdfs:subClassOf rdf:resource="&ingredient;Flour"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Pasta_ribbon -->
+
+    <Class rdf:about="&ingredient;Pasta_ribbon"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Pasta_tube -->
+
+    <Class rdf:about="&ingredient;Pasta_tube"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Pepper -->
+
+    <Class rdf:about="&ingredient;Pepper"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Plum_brandy -->
+
+    <Class rdf:about="&ingredient;Plum_brandy"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Pomegranate_molasse -->
+
+    <Class rdf:about="&ingredient;Pomegranate_molasse">
+        <rdfs:label>Pomegranate molasse</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Fruit_syrup"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Pork_tenderloin -->
+
+    <Class rdf:about="&ingredient;Pork_tenderloin"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Prince_edward_island_mussel -->
+
+    <Class rdf:about="&ingredient;Prince_edward_island_mussel">
+        <rdfs:label>Prince edward island mussel</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Mussel"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Quail_egg -->
+
+    <Class rdf:about="&ingredient;Quail_egg">
+        <rdfs:label>Quail egg</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Egg_concept"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Raisin -->
+
+    <Class rdf:about="&ingredient;Raisin"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Raw_milk -->
+
+    <Class rdf:about="&ingredient;Raw_milk">
+        <rdfs:label>Raw milk</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Milk_and_cream"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Red_bartlett_pear -->
+
+    <Class rdf:about="&ingredient;Red_bartlett_pear">
+        <rdfs:label>Red bartlett pear</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Bartlett_pear"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Red_beet -->
+
+    <Class rdf:about="&ingredient;Red_beet">
+        <rdfs:label>Red beet</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Beet"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Red_lentil -->
+
+    <Class rdf:about="&ingredient;Red_lentil">
+        <rdfs:label>Red lentil</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Lentil"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Rice -->
+
+    <Class rdf:about="&ingredient;Rice"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Roquefort -->
+
+    <Class rdf:about="&ingredient;Roquefort">
+        <rdfs:label>Roquefort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Dessert_blue_cheese"/>
+        <rdfs:subClassOf rdf:resource="&ingredient;Dressing__salad_blue_cheese"/>
+        <rdfs:subClassOf rdf:resource="&ingredient;Dressing_pasta_blue_cheese"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Russian_tea_cookie -->
+
+    <Class rdf:about="&ingredient;Russian_tea_cookie">
+        <rdfs:label>Russian tea cookie</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Cookies"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Sapote -->
+
+    <Class rdf:about="&ingredient;Sapote"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Sausage -->
+
+    <Class rdf:about="&ingredient;Sausage"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Slivovitz -->
+
+    <Class rdf:about="&ingredient;Slivovitz">
+        <rdfs:label>Slivovitz</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Plum_brandy"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Snap_bean -->
+
+    <Class rdf:about="&ingredient;Snap_bean"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Soup_pasta -->
+
+    <Class rdf:about="&ingredient;Soup_pasta"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Sour-mash_whiskey -->
+
+    <Class rdf:about="&ingredient;Sour-mash_whiskey"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Soy_product -->
+
+    <Class rdf:about="&ingredient;Soy_product"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Spice -->
+
+    <Class rdf:about="&ingredient;Spice"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Starch_thickener -->
+
+    <Class rdf:about="&ingredient;Starch_thickener"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Stuffing_pasta -->
+
+    <Class rdf:about="&ingredient;Stuffing_pasta"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/Tapioca_starch -->
+
+    <Class rdf:about="&ingredient;Tapioca_starch">
+        <rdfs:label>Tapioca starch</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Starch_thickener"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Tenderloin_piece -->
+
+    <Class rdf:about="&ingredient;Tenderloin_piece">
+        <rdfs:label>Tenderloin piece</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Pork_tenderloin"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Tufoli -->
+
+    <Class rdf:about="&ingredient;Tufoli">
+        <rdfs:label>Tufoli</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Pasta_tube"/>
+        <rdfs:subClassOf rdf:resource="&ingredient;Stuffing_pasta"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Tuscan_sausage -->
+
+    <Class rdf:about="&ingredient;Tuscan_sausage">
+        <rdfs:label>Tuscan sausage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Sausage"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Vermouth -->
+
+    <Class rdf:about="&ingredient;Vermouth"/>
+    
+
+
+    <!-- http://lordb.org/ingredient/White_sapote -->
+
+    <Class rdf:about="&ingredient;White_sapote">
+        <rdfs:label>White sapote</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Sapote"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Zungenwurst -->
+
+    <Class rdf:about="&ingredient;Zungenwurst">
+        <rdfs:label xml:lang="de">Zungenwurst</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Cold_cut"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Baker%27s_ammonia -->
+
+    <Class rdf:about="&ingredient;Baker%27s_ammonia">
+        <rdfs:label>Baker&apos;s ammonia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Leaven"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ingredient/Martini_%26_rossi -->
+
+    <Class rdf:about="&ingredient;Martini_%26_rossi">
+        <rdfs:label>Martini &amp; rossi</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ingredient;Vermouth"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ontology/American -->
+
+    <Class rdf:about="&food;American"/>
+    
+
+
+    <!-- http://lordb.org/ontology/Cajun -->
+
+    <Class rdf:about="&food;Cajun">
+        <rdfs:label>Cajun</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&food;American"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ontology/Low_calorie -->
+
+    <Class rdf:about="&food;Low_calorie">
+        <rdfs:label>Low calorie</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&food;Special_diet"/>
+    </Class>
+    
+
+
+    <!-- http://lordb.org/ontology/Special_diet -->
+
+    <Class rdf:about="&food;Special_diet"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+

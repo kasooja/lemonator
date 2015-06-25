@@ -1,0 +1,595 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns="http://www.owl-ontologies.com/OntoGlossary.owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+    xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://www.owl-ontologies.com/OntoGlossary.owl">
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="Training_and_extension">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Subject_Areas"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Pest_control">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Environmental_aspects"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Recirculation_systems">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Facilities__equipment_and_engineering"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Parasites">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Health_management_and_diseases"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Environmental_aspects">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Subject_Areas"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Aquaculture_equipment">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Facilities__equipment_and_engineering"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Groundwater">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Land_or_water_use_and_irrigation"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Research_and_methodology">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Subject_Areas"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Health_management_and_diseases">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Subject_Areas"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Microbiology">
+    <rdfs:subClassOf rdf:resource="#Health_management_and_diseases"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Use_of_waste_heat">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Integrated_farming_systems"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Marketing">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Harvesting__processing_and_marketing"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Energy_use">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Facilities__equipment_and_engineering"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Erosion">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Facilities__equipment_and_engineering"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Diagnosis">
+    <rdfs:subClassOf rdf:resource="#Health_management_and_diseases"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Genetic_resources">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Genetics_and_species_transfer"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Loan">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Economics_and_investment"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Agro-aquaculture">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Integrated_farming_systems"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Termes">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="French"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Ethology">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Aquatic_organisms__general"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Environmental_protection_or_impact">
+    <rdfs:subClassOf rdf:resource="#Environmental_aspects"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Statistical_analysis">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Information__statistics_and_GIS"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Sewage_aquaculture">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Integrated_farming_systems"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Water_bodies">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Land_or_water_use_and_irrigation"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Facilities__equipment_and_engineering">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Subject_Areas"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Bioenergetics">
+    <rdfs:subClassOf rdf:resource="#Facilities__equipment_and_engineering"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Geographical_information_systems">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information__statistics_and_GIS"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Drugs">
+    <rdfs:subClassOf rdf:resource="#Health_management_and_diseases"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Biotechnology">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Genetics_and_species_transfer"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Coastal_or_pelagic">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Land_or_water_use_and_irrigation"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Topography">
+    <rdfs:subClassOf rdf:resource="#Facilities__equipment_and_engineering"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Water_and_watershed_management">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Land_or_water_use_and_irrigation"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Integrated_farming_systems">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Subject_Areas"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Miscellaneous">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Subject_Areas"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Partnerships">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Harvesting__processing_and_marketing"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Hybridization">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Genetics_and_species_transfer"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Sericulture">
+    <rdfs:subClassOf rdf:resource="#Integrated_farming_systems"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Terms">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="English"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:ID="Owner"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:ID="Name"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:ID="Definition"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Introductions">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Genetics_and_species_transfer"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Site_factors">
+    <rdfs:subClassOf rdf:resource="#Facilities__equipment_and_engineering"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Ecology">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Aquatic_organisms__general"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Pathogens">
+    <rdfs:subClassOf rdf:resource="#Health_management_and_diseases"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Rice_culture">
+    <rdfs:subClassOf rdf:resource="#Integrated_farming_systems"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Harmful_algae">
+    <rdfs:subClassOf rdf:resource="#Environmental_aspects"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Aquatic_weeds">
+    <rdfs:subClassOf rdf:resource="#Environmental_aspects"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Internet">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information__statistics_and_GIS"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Production_technology_and_trends">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Subject_Areas"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Sewage">
+    <rdfs:subClassOf rdf:resource="#Environmental_aspects"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Information_services_or_systems">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information__statistics_and_GIS"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Natural_productivity">
+    <rdfs:subClassOf rdf:resource="#Environmental_aspects"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Economics_and_investment">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Subject_Areas"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Libraries">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information__statistics_and_GIS"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Selection">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Genetics_and_species_transfer"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Harvesting__processing_and_marketing">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Subject_Areas"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Vaccines">
+    <rdfs:subClassOf rdf:resource="#Health_management_and_diseases"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Policy_and_planning">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Subject_Areas"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Hygiene">
+    <rdfs:subClassOf rdf:resource="#Health_management_and_diseases"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Water_quality">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Subject_Areas"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Crossbreeding">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Genetics_and_species_transfer"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Ingredients">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Fertilization__feeding_and_nutrition"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Design_or_construction_of_culture_facilities">
+    <rdfs:subClassOf rdf:resource="#Facilities__equipment_and_engineering"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Legal_aspects">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Subject_Areas"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Reclamation">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Land_or_water_use_and_irrigation"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Soils">
+    <rdfs:subClassOf rdf:resource="#Facilities__equipment_and_engineering"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Culture-based_fisheries">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Land_or_water_use_and_irrigation"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Micro_and_macro_economics">
+    <rdfs:subClassOf rdf:resource="#Economics_and_investment"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Atolls">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Land_or_water_use_and_irrigation"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Quality_control">
+    <rdfs:subClassOf rdf:resource="#Harvesting__processing_and_marketing"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Taxonomy">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Aquatic_organisms__general"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Hydroponics">
+    <rdfs:subClassOf rdf:resource="#Integrated_farming_systems"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Land_or_water_surveying">
+    <rdfs:subClassOf rdf:resource="#Facilities__equipment_and_engineering"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Immunization">
+    <rdfs:subClassOf rdf:resource="#Health_management_and_diseases"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Mixed_farming">
+    <rdfs:subClassOf rdf:resource="#Integrated_farming_systems"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Water_cycle">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Land_or_water_use_and_irrigation"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Conservation">
+    <rdfs:subClassOf rdf:resource="#Environmental_aspects"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Agro-forestry">
+    <rdfs:subClassOf rdf:resource="#Integrated_farming_systems"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Wetlands">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Land_or_water_use_and_irrigation"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Subject_Areas">
+    <rdfs:subClassOf rdf:resource="#English"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Business_management">
+    <rdfs:subClassOf rdf:resource="#Harvesting__processing_and_marketing"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Land_or_water_use_and_irrigation">
+    <rdfs:subClassOf rdf:resource="#Subject_Areas"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Termos">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Spanish"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Hydraulics">
+    <rdfs:subClassOf rdf:resource="#Facilities__equipment_and_engineering"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Fishing_gears">
+    <rdfs:subClassOf rdf:resource="#Harvesting__processing_and_marketing"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Institutions_and_organizations">
+    <rdfs:subClassOf rdf:resource="#Subject_Areas"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Related to aquaculture and international</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="_Irrigation">
+    <rdfs:subClassOf rdf:resource="#Land_or_water_use_and_irrigation"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Pollution">
+    <rdfs:subClassOf rdf:resource="#Environmental_aspects"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Remote_sensing">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information__statistics_and_GIS"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Insurence">
+    <rdfs:subClassOf rdf:resource="#Economics_and_investment"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Biology">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Aquatic_organisms__general"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Integrated_farming">
+    <rdfs:subClassOf rdf:resource="#Integrated_farming_systems"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Networking">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information__statistics_and_GIS"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Biodiversity">
+    <rdfs:subClassOf rdf:resource="#Environmental_aspects"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Liming">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Fertilization__feeding_and_nutrition"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Processing">
+    <rdfs:subClassOf rdf:resource="#Harvesting__processing_and_marketing"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Sociological_and_cultural_aspects">
+    <rdfs:subClassOf rdf:resource="#Subject_Areas"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Information__statistics_and_GIS">
+    <rdfs:subClassOf rdf:resource="#Subject_Areas"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Fertilizers">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Fertilization__feeding_and_nutrition"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Reefs">
+    <rdfs:subClassOf rdf:resource="#Land_or_water_use_and_irrigation"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Animal_husbandry">
+    <rdfs:subClassOf rdf:resource="#Integrated_farming_systems"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Cost_benefit_analysis">
+    <rdfs:subClassOf rdf:resource="#Economics_and_investment"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Feed_manufacture">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Fertilization__feeding_and_nutrition"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Genetics_and_species_transfer">
+    <rdfs:subClassOf rdf:resource="#Subject_Areas"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Reproduction_biology__seed_production_and_hatcheries">
+    <rdfs:subClassOf rdf:resource="#Subject_Areas"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Nutritional_aspects">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Fertilization__feeding_and_nutrition"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Therapy">
+    <rdfs:subClassOf rdf:resource="#Health_management_and_diseases"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Aquatic_organisms__general">
+    <rdfs:subClassOf rdf:resource="#Subject_Areas"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Inbreeding">
+    <rdfs:subClassOf rdf:resource="#Genetics_and_species_transfer"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Feeds">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Fertilization__feeding_and_nutrition"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Databases">
+    <rdfs:subClassOf rdf:resource="#Information__statistics_and_GIS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Computers">
+    <rdfs:subClassOf rdf:resource="#Information__statistics_and_GIS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Toxicity">
+    <rdfs:subClassOf rdf:resource="#Environmental_aspects"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Ranching">
+    <rdfs:subClassOf rdf:resource="#Land_or_water_use_and_irrigation"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Disease_control_and_prevention">
+    <rdfs:subClassOf rdf:resource="#Health_management_and_diseases"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Credit">
+    <rdfs:subClassOf rdf:resource="#Economics_and_investment"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Live_foods_production">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Fertilization__feeding_and_nutrition"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Agricultural_wastes">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Fertilization__feeding_and_nutrition"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_Bibliographies">
+    <rdfs:subClassOf rdf:resource="#Information__statistics_and_GIS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Transport">
+    <rdfs:subClassOf rdf:resource="#Harvesting__processing_and_marketing"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Food_safety">
+    <rdfs:subClassOf rdf:resource="#Harvesting__processing_and_marketing"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Harvesting">
+    <rdfs:subClassOf rdf:resource="#Harvesting__processing_and_marketing"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Diets">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Fertilization__feeding_and_nutrition"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Fertilization__feeding_and_nutrition">
+    <rdfs:subClassOf rdf:resource="#Subject_Areas"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Fouling">
+    <rdfs:subClassOf rdf:resource="#Environmental_aspects"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Enhancements">
+    <rdfs:subClassOf rdf:resource="#Land_or_water_use_and_irrigation"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_Development_aid">
+    <rdfs:subClassOf rdf:resource="#Economics_and_investment"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:ID="hasRelatedTerm">
+    <rdfs:range rdf:resource="#Terms"/>
+    <rdfs:domain rdf:resource="#Terms"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasSubjectArea">
+    <rdfs:domain rdf:resource="#Terms"/>
+    <rdfs:range rdf:resource="#Subject_Areas"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasTranslation">
+    <rdfs:domain rdf:resource="#English"/>
+    <rdfs:range>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#French"/>
+          <owl:Class rdf:about="#Spanish"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:range>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="#Owner">
+    <rdfs:domain rdf:resource="#Terms"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#Name">
+    <rdfs:domain rdf:resource="#Terms"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#Definition">
+    <rdfs:domain rdf:resource="#Terms"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:SymmetricProperty rdf:ID="hasSynonym">
+    <owl:inverseOf rdf:resource="#hasSynonym"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="#Terms"/>
+    <rdfs:range rdf:resource="#Terms"/>
+  </owl:SymmetricProperty>
+  <owl:FunctionalProperty rdf:ID="Images">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#Terms"/>
+          <owl:Class rdf:about="#English"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+  </owl:FunctionalProperty>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.5, Build 663)  http://protege.stanford.edu -->
