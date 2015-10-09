@@ -1,0 +1,2974 @@
+<?xml version="1.0" encoding="us-ascii"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <lemon:Lexicon rdf:about="unknown:/lexicon__sv" xmlns:lemon="http://www.monnet-project.eu/lemon#">
+    <lemon:language>sv</lemon:language>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/organism">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__sv/single%2Bcell%2Borganism#form__3">
+            <lemon:writtenRep xml:lang="sv">organism</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun" xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"/>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__sv/single+cell+organism">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__sv/single+cell+organism#form">
+            <lemon:writtenRep xml:lang="sv">single cell organism</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__sv/single%2Bcell%2Borganism#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000064"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__sv/single%2Bcell%2Borganism#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__sv/single"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__sv/single%2Bcell%2Borganism#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__en/cell"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__sv/single%2Bcell%2Borganism#comp__3">
+            <lemon:element rdf:resource="unknown:/lexicon__en/organism"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__sv/single">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__sv/single%2Bcell%2Borganism#form__4">
+            <lemon:writtenRep xml:lang="sv">singl</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:otherForm>
+          <lemon:Form rdf:about="unknown:/lexicon__sv/single%2Bcell%2Borganism#form">
+            <lemon:writtenRep xml:lang="sv">single</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:otherForm>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/cell">
+        <lemon:phraseRoot>
+          <lemon:Node rdf:about="unknown:/lexicon__en/cell__3#node">
+            <lemon:edge>
+              <lemon:Node rdf:about="unknown:/lexicon__en/cell__3#node__2">
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/cell__3#node__3"/>
+                </lemon:edge>
+                <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NN"/>
+              </lemon:Node>
+            </lemon:edge>
+            <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NP"/>
+          </lemon:Node>
+        </lemon:phraseRoot>
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__en/cell#form">
+            <lemon:writtenRep xml:lang="en">cell</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun" xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"/>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__en/cell__3#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000013"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+  </lemon:Lexicon>
+  <lemon:Lexicon rdf:about="unknown:/lexicon__en" xmlns:lemon="http://www.monnet-project.eu/lemon#">
+    <lemon:language>en</lemon:language>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/format">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__en/has_obo_format_version#form__4">
+            <lemon:writtenRep xml:lang="en">format</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun" xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"/>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/obo">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__en/has_obo_format_version#form__3">
+            <lemon:writtenRep xml:lang="en">obo</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#cardinalNumeral" xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"/>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/squamous">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__en/simple%2Bsquamous%2Bepithelium#form__2">
+            <lemon:writtenRep xml:lang="en">squamous</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun" xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"/>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/compound+organ">
+        <lemon:phraseRoot>
+          <lemon:Node rdf:about="unknown:/lexicon__en/compound%2Borgan#node">
+            <lemon:edge>
+              <lemon:Node rdf:about="unknown:/lexicon__en/compound%2Borgan#node__2">
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/compound%2Borgan#node__3">
+                    <lemon:leaf rdf:resource="unknown:/lexicon__en/compound%2Borgan#comp"/>
+                  </lemon:Node>
+                </lemon:edge>
+                <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/JJ"/>
+              </lemon:Node>
+            </lemon:edge>
+            <lemon:edge>
+              <lemon:Node rdf:about="unknown:/lexicon__en/compound%2Borgan#node__4">
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/compound%2Borgan#node__5">
+                    <lemon:leaf rdf:resource="unknown:/lexicon__en/compound%2Borgan#comp__2"/>
+                  </lemon:Node>
+                </lemon:edge>
+                <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NN"/>
+              </lemon:Node>
+            </lemon:edge>
+            <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NP"/>
+          </lemon:Node>
+        </lemon:phraseRoot>
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__en/compound+organ#form">
+            <lemon:writtenRep xml:lang="en">compound organ</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lemon:synBehavior>
+          <lemon:Frame rdf:about="unknown:/lexicon__en/compound%2Borgan#frame">
+            <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPredicateFrame"/>
+            <lexinfo:copulativeArg xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#">
+              <lemon:Argument rdf:about="unknown:/lexicon__en/compound%2Borgan#arg"/>
+            </lexinfo:copulativeArg>
+          </lemon:Frame>
+        </lemon:synBehavior>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__en/compound%2Borgan#sense">
+            <lemon:isA rdf:resource="unknown:/lexicon__en/compound%2Borgan#arg"/>
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000024"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__en/compound%2Borgan#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__en/compound"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__en/compound%2Borgan#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__en/organ"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/of">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__en/part_of#form__3">
+            <lemon:writtenRep xml:lang="en">of</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#preposition" xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"/>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/portion+of+tissue">
+        <lemon:phraseRoot>
+          <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Btissue#node">
+            <lemon:edge>
+              <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Btissue#node__2">
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Btissue#node__3">
+                    <lemon:edge>
+                      <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Btissue#node__4">
+                        <lemon:leaf rdf:resource="unknown:/lexicon__en/portion%2Bof%2Btissue#comp"/>
+                      </lemon:Node>
+                    </lemon:edge>
+                    <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NN"/>
+                  </lemon:Node>
+                </lemon:edge>
+                <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NP"/>
+              </lemon:Node>
+            </lemon:edge>
+            <lemon:edge>
+              <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Btissue#node__5">
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Btissue#node__6">
+                    <lemon:edge>
+                      <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Btissue#node__7">
+                        <lemon:leaf rdf:resource="unknown:/lexicon__en/portion%2Bof%2Btissue#comp__2"/>
+                      </lemon:Node>
+                    </lemon:edge>
+                    <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/IN"/>
+                  </lemon:Node>
+                </lemon:edge>
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Btissue#node__8">
+                    <lemon:edge>
+                      <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Btissue#node__9">
+                        <lemon:edge>
+                          <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Btissue#node__10">
+                            <lemon:leaf rdf:resource="unknown:/lexicon__en/portion%2Bof%2Btissue#comp__3"/>
+                          </lemon:Node>
+                        </lemon:edge>
+                        <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NN"/>
+                      </lemon:Node>
+                    </lemon:edge>
+                    <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NP"/>
+                  </lemon:Node>
+                </lemon:edge>
+                <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/PP"/>
+              </lemon:Node>
+            </lemon:edge>
+            <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NP"/>
+          </lemon:Node>
+        </lemon:phraseRoot>
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__en/portion+of+tissue#form">
+            <lemon:writtenRep xml:lang="en">portion of tissue</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lemon:synBehavior>
+          <lemon:Frame rdf:about="unknown:/lexicon__en/portion%2Bof%2Btissue#frame">
+            <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPredicateFrame"/>
+            <lexinfo:copulativeArg xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#">
+              <lemon:Argument rdf:about="unknown:/lexicon__en/portion%2Bof%2Btissue#arg"/>
+            </lexinfo:copulativeArg>
+          </lemon:Frame>
+        </lemon:synBehavior>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__en/portion%2Bof%2Btissue#sense">
+            <lemon:isA rdf:resource="unknown:/lexicon__en/portion%2Bof%2Btissue#arg"/>
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000043"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__en/portion%2Bof%2Btissue#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__en/portion"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__en/portion%2Bof%2Btissue#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__en/of"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__en/portion%2Bof%2Btissue#comp__3">
+            <lemon:element rdf:resource="unknown:/lexicon__en/tissue"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/epithelial">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__en/epithelial%2Bcell#form">
+            <lemon:writtenRep xml:lang="en">epithelial</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#adjective" xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"/>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/compound">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__fr/compound%2Borgan%2Bcomponent#form">
+            <lemon:writtenRep xml:lang="fr">compound</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#adjective" xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"/>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/substance">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__en/portion%2Bof%2Bcell%2Bsubstance#form__4">
+            <lemon:writtenRep xml:lang="en">substance</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun" xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"/>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/part_of">
+        <lemon:phraseRoot>
+          <lemon:Node rdf:about="unknown:/lexicon__en/part_of#node">
+            <lemon:edge>
+              <lemon:Node rdf:about="unknown:/lexicon__en/part_of#node__5">
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/part_of#node__6">
+                    <lemon:edge>
+                      <lemon:Node rdf:about="unknown:/lexicon__en/part_of#node__7">
+                        <lemon:leaf rdf:resource="unknown:/lexicon__en/part_of#comp__2"/>
+                      </lemon:Node>
+                    </lemon:edge>
+                    <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/IN"/>
+                  </lemon:Node>
+                </lemon:edge>
+                <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/PP"/>
+              </lemon:Node>
+            </lemon:edge>
+            <lemon:edge>
+              <lemon:Node rdf:about="unknown:/lexicon__en/part_of#node__2">
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/part_of#node__3">
+                    <lemon:edge>
+                      <lemon:Node rdf:about="unknown:/lexicon__en/part_of#node__4">
+                        <lemon:leaf rdf:resource="unknown:/lexicon__en/part_of#comp"/>
+                      </lemon:Node>
+                    </lemon:edge>
+                    <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NN"/>
+                  </lemon:Node>
+                </lemon:edge>
+                <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NP"/>
+              </lemon:Node>
+            </lemon:edge>
+            <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NP"/>
+          </lemon:Node>
+        </lemon:phraseRoot>
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__en/part_of#form">
+            <lemon:writtenRep xml:lang="en">part_of</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lemon:synBehavior>
+          <lemon:Frame rdf:about="unknown:/lexicon__en/part_of#frame">
+            <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossesiveFrame"/>
+            <lexinfo:possesiveAdjunct xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#">
+              <lemon:Argument rdf:about="unknown:/lexicon__en/part_of#arg"/>
+            </lexinfo:possesiveAdjunct>
+            <lexinfo:copulativeArg xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#">
+              <lemon:Argument rdf:about="unknown:/lexicon__en/part_of#arg__2"/>
+            </lexinfo:copulativeArg>
+          </lemon:Frame>
+        </lemon:synBehavior>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__en/part_of#sense">
+            <lemon:subjOfProp rdf:resource="unknown:/lexicon__en/part_of#arg__2"/>
+            <lemon:subjOfProp rdf:resource="unknown:/lexicon__en/part_of#arg"/>
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/caro/src/caro.obo#part_of"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__en/part_of#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__en/part"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__en/part_of#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__en/of"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/epithelial+cell">
+        <lemon:phraseRoot>
+          <lemon:Node rdf:about="unknown:/lexicon__en/epithelial%2Bcell#node">
+            <lemon:edge>
+              <lemon:Node rdf:about="unknown:/lexicon__en/epithelial%2Bcell#node__4">
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/epithelial%2Bcell#node__5">
+                    <lemon:leaf rdf:resource="unknown:/lexicon__en/epithelial%2Bcell#comp__2"/>
+                  </lemon:Node>
+                </lemon:edge>
+                <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NN"/>
+              </lemon:Node>
+            </lemon:edge>
+            <lemon:edge>
+              <lemon:Node rdf:about="unknown:/lexicon__en/epithelial%2Bcell#node__2">
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/epithelial%2Bcell#node__3">
+                    <lemon:leaf rdf:resource="unknown:/lexicon__en/epithelial%2Bcell#comp"/>
+                  </lemon:Node>
+                </lemon:edge>
+                <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/JJ"/>
+              </lemon:Node>
+            </lemon:edge>
+            <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NP"/>
+          </lemon:Node>
+        </lemon:phraseRoot>
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__en/epithelial+cell#form">
+            <lemon:writtenRep xml:lang="en">epithelial cell</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lemon:synBehavior>
+          <lemon:Frame rdf:about="unknown:/lexicon__en/epithelial%2Bcell#frame">
+            <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPredicateFrame"/>
+            <lexinfo:copulativeArg xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#">
+              <lemon:Argument rdf:about="unknown:/lexicon__en/epithelial%2Bcell#arg"/>
+            </lexinfo:copulativeArg>
+          </lemon:Frame>
+        </lemon:synBehavior>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__en/epithelial%2Bcell#sense">
+            <lemon:isA rdf:resource="unknown:/lexicon__en/epithelial%2Bcell#arg"/>
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000077"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__en/epithelial%2Bcell#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__en/epithelial"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__en/epithelial%2Bcell#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__en/cell"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/overlaps">
+        <lemon:phraseRoot>
+          <lemon:Node rdf:about="unknown:/lexicon__en/overlaps#node">
+            <lemon:edge>
+              <lemon:Node rdf:about="unknown:/lexicon__en/overlaps#node__2">
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/overlaps#node__3"/>
+                </lemon:edge>
+                <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NNS"/>
+              </lemon:Node>
+            </lemon:edge>
+            <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NP"/>
+          </lemon:Node>
+        </lemon:phraseRoot>
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__en/overlaps#form">
+            <lemon:writtenRep xml:lang="en">overlaps</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun" xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"/>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__en/overlaps#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/caro/src/caro.obo#overlaps"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/portion+of+organism+substance">
+        <lemon:phraseRoot>
+          <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Borganism%2Bsubstance#node">
+            <lemon:edge>
+              <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Borganism%2Bsubstance#node__5">
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Borganism%2Bsubstance#node__8">
+                    <lemon:edge>
+                      <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Borganism%2Bsubstance#node__9">
+                        <lemon:edge>
+                          <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Borganism%2Bsubstance#node__10">
+                            <lemon:leaf rdf:resource="unknown:/lexicon__en/portion%2Bof%2Borganism%2Bsubstance#comp__3"/>
+                          </lemon:Node>
+                        </lemon:edge>
+                        <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NN"/>
+                      </lemon:Node>
+                    </lemon:edge>
+                    <lemon:edge>
+                      <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Borganism%2Bsubstance#node__11">
+                        <lemon:edge>
+                          <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Borganism%2Bsubstance#node__12">
+                            <lemon:leaf rdf:resource="unknown:/lexicon__en/portion%2Bof%2Borganism%2Bsubstance#comp__4"/>
+                          </lemon:Node>
+                        </lemon:edge>
+                        <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NN"/>
+                      </lemon:Node>
+                    </lemon:edge>
+                    <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NP"/>
+                  </lemon:Node>
+                </lemon:edge>
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Borganism%2Bsubstance#node__6">
+                    <lemon:edge>
+                      <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Borganism%2Bsubstance#node__7">
+                        <lemon:leaf rdf:resource="unknown:/lexicon__en/portion%2Bof%2Borganism%2Bsubstance#comp__2"/>
+                      </lemon:Node>
+                    </lemon:edge>
+                    <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/IN"/>
+                  </lemon:Node>
+                </lemon:edge>
+                <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/PP"/>
+              </lemon:Node>
+            </lemon:edge>
+            <lemon:edge>
+              <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Borganism%2Bsubstance#node__2">
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Borganism%2Bsubstance#node__3">
+                    <lemon:edge>
+                      <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Borganism%2Bsubstance#node__4">
+                        <lemon:leaf rdf:resource="unknown:/lexicon__en/portion%2Bof%2Borganism%2Bsubstance#comp"/>
+                      </lemon:Node>
+                    </lemon:edge>
+                    <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NN"/>
+                  </lemon:Node>
+                </lemon:edge>
+                <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NP"/>
+              </lemon:Node>
+            </lemon:edge>
+            <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NP"/>
+          </lemon:Node>
+        </lemon:phraseRoot>
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__en/portion+of+organism+substance#form">
+            <lemon:writtenRep xml:lang="en">portion of organism substance</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lemon:synBehavior>
+          <lemon:Frame rdf:about="unknown:/lexicon__en/portion%2Bof%2Borganism%2Bsubstance#frame">
+            <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPredicateFrame"/>
+            <lexinfo:copulativeArg xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#">
+              <lemon:Argument rdf:about="unknown:/lexicon__en/portion%2Bof%2Borganism%2Bsubstance#arg"/>
+            </lexinfo:copulativeArg>
+          </lemon:Frame>
+        </lemon:synBehavior>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__en/portion%2Bof%2Borganism%2Bsubstance#sense">
+            <lemon:isA rdf:resource="unknown:/lexicon__en/portion%2Bof%2Borganism%2Bsubstance#arg"/>
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000004"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__en/portion%2Bof%2Borganism%2Bsubstance#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__en/portion"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__en/portion%2Bof%2Borganism%2Bsubstance#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__en/of"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__en/portion%2Bof%2Borganism%2Bsubstance#comp__3">
+            <lemon:element rdf:resource="unknown:/lexicon__en/organism"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__en/portion%2Bof%2Borganism%2Bsubstance#comp__4">
+            <lemon:element rdf:resource="unknown:/lexicon__en/substance"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/cavitated">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__en/cavitated%2Bcompound%2Borgan#form">
+            <lemon:writtenRep xml:lang="en">cavitated</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#verb" xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"/>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/has">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__en/has_obo_format_version#form__2">
+            <lemon:writtenRep xml:lang="en">has</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#verb" xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"/>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/tissue">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__en/portion%2Bof%2Btissue#form__3">
+            <lemon:writtenRep xml:lang="en">tissue</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun" xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"/>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/simple+squamous+epithelium">
+        <lemon:phraseRoot>
+          <lemon:Node rdf:about="unknown:/lexicon__en/simple%2Bsquamous%2Bepithelium#node">
+            <lemon:edge>
+              <lemon:Node rdf:about="unknown:/lexicon__en/simple%2Bsquamous%2Bepithelium#node__7">
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/simple%2Bsquamous%2Bepithelium#node__8">
+                    <lemon:edge>
+                      <lemon:Node rdf:about="unknown:/lexicon__en/simple%2Bsquamous%2Bepithelium#node__9">
+                        <lemon:leaf rdf:resource="unknown:/lexicon__en/simple%2Bsquamous%2Bepithelium#comp__3"/>
+                      </lemon:Node>
+                    </lemon:edge>
+                    <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NN"/>
+                  </lemon:Node>
+                </lemon:edge>
+                <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NP"/>
+              </lemon:Node>
+            </lemon:edge>
+            <lemon:edge>
+              <lemon:Node rdf:about="unknown:/lexicon__en/simple%2Bsquamous%2Bepithelium#node__2">
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/simple%2Bsquamous%2Bepithelium#node__5">
+                    <lemon:edge>
+                      <lemon:Node rdf:about="unknown:/lexicon__en/simple%2Bsquamous%2Bepithelium#node__6">
+                        <lemon:leaf rdf:resource="unknown:/lexicon__en/simple%2Bsquamous%2Bepithelium#comp__2"/>
+                      </lemon:Node>
+                    </lemon:edge>
+                    <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NNS"/>
+                  </lemon:Node>
+                </lemon:edge>
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/simple%2Bsquamous%2Bepithelium#node__3">
+                    <lemon:edge>
+                      <lemon:Node rdf:about="unknown:/lexicon__en/simple%2Bsquamous%2Bepithelium#node__4">
+                        <lemon:leaf rdf:resource="unknown:/lexicon__en/simple%2Bsquamous%2Bepithelium#comp"/>
+                      </lemon:Node>
+                    </lemon:edge>
+                    <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/JJ"/>
+                  </lemon:Node>
+                </lemon:edge>
+                <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NP"/>
+              </lemon:Node>
+            </lemon:edge>
+            <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NP"/>
+          </lemon:Node>
+        </lemon:phraseRoot>
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__en/simple+squamous+epithelium#form">
+            <lemon:writtenRep xml:lang="en">simple squamous epithelium</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lemon:synBehavior>
+          <lemon:Frame rdf:about="unknown:/lexicon__en/simple%2Bsquamous%2Bepithelium#frame">
+            <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPredicateFrame"/>
+            <lexinfo:copulativeArg xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#">
+              <lemon:Argument rdf:about="unknown:/lexicon__en/simple%2Bsquamous%2Bepithelium#arg"/>
+            </lexinfo:copulativeArg>
+          </lemon:Frame>
+        </lemon:synBehavior>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__en/simple%2Bsquamous%2Bepithelium#sense">
+            <lemon:isA rdf:resource="unknown:/lexicon__en/simple%2Bsquamous%2Bepithelium#arg"/>
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000070"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__en/simple%2Bsquamous%2Bepithelium#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__en/simple"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__en/simple%2Bsquamous%2Bepithelium#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__en/squamous"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__en/simple%2Bsquamous%2Bepithelium#comp__3">
+            <lemon:element rdf:resource="unknown:/lexicon__en/epithelium"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/simple">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__en/simple%2Bsquamous%2Bepithelium#form">
+            <lemon:writtenRep xml:lang="en">simple</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#adjective" xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"/>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry rdf:resource="unknown:/lexicon__en/cell"/>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/organ">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__fr/compound%2Borgan%2Bcomponent#form__2">
+            <lemon:writtenRep xml:lang="fr">organ</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun" xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"/>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/date">
+        <lemon:phraseRoot>
+          <lemon:Node rdf:about="unknown:/lexicon__en/date#node">
+            <lemon:edge>
+              <lemon:Node rdf:about="unknown:/lexicon__en/date#node__2">
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/date#node__3"/>
+                </lemon:edge>
+                <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NN"/>
+              </lemon:Node>
+            </lemon:edge>
+            <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NP"/>
+          </lemon:Node>
+        </lemon:phraseRoot>
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__en/date#form">
+            <lemon:writtenRep xml:lang="en">date</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun" xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"/>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__en/date#sense">
+            <lemon:reference rdf:resource="http://www.geneontology.org/formats/oboInOwl#date"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/portion">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__en/portion%2Bof%2Bcell%2Bsubstance#form">
+            <lemon:writtenRep xml:lang="en">portion</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun" xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"/>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry rdf:resource="unknown:/lexicon__en/organism"/>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/epithelium">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__en/simple%2Bsquamous%2Bepithelium#form__3">
+            <lemon:writtenRep xml:lang="en">epithelium</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun" xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"/>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/cavitated+compound+organ">
+        <lemon:phraseRoot>
+          <lemon:Node rdf:about="unknown:/lexicon__en/cavitated%2Bcompound%2Borgan#node">
+            <lemon:edge>
+              <lemon:Node rdf:about="unknown:/lexicon__en/cavitated%2Bcompound%2Borgan#node__5">
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/cavitated%2Bcompound%2Borgan#node__8">
+                    <lemon:edge>
+                      <lemon:Node rdf:about="unknown:/lexicon__en/cavitated%2Bcompound%2Borgan#node__9">
+                        <lemon:leaf rdf:resource="unknown:/lexicon__en/cavitated%2Bcompound%2Borgan#comp__3"/>
+                      </lemon:Node>
+                    </lemon:edge>
+                    <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NN"/>
+                  </lemon:Node>
+                </lemon:edge>
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/cavitated%2Bcompound%2Borgan#node__6">
+                    <lemon:edge>
+                      <lemon:Node rdf:about="unknown:/lexicon__en/cavitated%2Bcompound%2Borgan#node__7">
+                        <lemon:leaf rdf:resource="unknown:/lexicon__en/cavitated%2Bcompound%2Borgan#comp__2"/>
+                      </lemon:Node>
+                    </lemon:edge>
+                    <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/JJ"/>
+                  </lemon:Node>
+                </lemon:edge>
+                <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NP"/>
+              </lemon:Node>
+            </lemon:edge>
+            <lemon:edge>
+              <lemon:Node rdf:about="unknown:/lexicon__en/cavitated%2Bcompound%2Borgan#node__2">
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/cavitated%2Bcompound%2Borgan#node__3">
+                    <lemon:edge>
+                      <lemon:Node rdf:about="unknown:/lexicon__en/cavitated%2Bcompound%2Borgan#node__4">
+                        <lemon:leaf rdf:resource="unknown:/lexicon__en/cavitated%2Bcompound%2Borgan#comp"/>
+                      </lemon:Node>
+                    </lemon:edge>
+                    <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/VBD"/>
+                  </lemon:Node>
+                </lemon:edge>
+                <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/VP"/>
+              </lemon:Node>
+            </lemon:edge>
+            <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/SINV"/>
+          </lemon:Node>
+        </lemon:phraseRoot>
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__en/cavitated+compound+organ#form">
+            <lemon:writtenRep xml:lang="en">cavitated compound organ</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__en/cavitated%2Bcompound%2Borgan#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000072"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__en/cavitated%2Bcompound%2Borgan#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__en/cavitated"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__en/cavitated%2Bcompound%2Borgan#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__en/compound"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__en/cavitated%2Bcompound%2Borgan#comp__3">
+            <lemon:element rdf:resource="unknown:/lexicon__en/organ"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/part">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__en/part_of#form__2">
+            <lemon:writtenRep xml:lang="en">part</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun" xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"/>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/id">
+        <lemon:phraseRoot>
+          <lemon:Node rdf:about="unknown:/lexicon__en/id#node">
+            <lemon:edge>
+              <lemon:Node rdf:about="unknown:/lexicon__en/id#node__2">
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/id#node__3"/>
+                </lemon:edge>
+                <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NN"/>
+              </lemon:Node>
+            </lemon:edge>
+            <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NP"/>
+          </lemon:Node>
+        </lemon:phraseRoot>
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__en/id#form">
+            <lemon:writtenRep xml:lang="en">id</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun" xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"/>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__en/id#sense">
+            <lemon:reference rdf:resource="http://www.geneontology.org/formats/oboInOwl#id"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/has_obo_format_version">
+        <lemon:phraseRoot>
+          <lemon:Node rdf:about="unknown:/lexicon__en/has_obo_format_version#node">
+            <lemon:edge>
+              <lemon:Node rdf:about="unknown:/lexicon__en/has_obo_format_version#node__2">
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/has_obo_format_version#node__3">
+                    <lemon:leaf rdf:resource="unknown:/lexicon__en/has_obo_format_version#comp"/>
+                  </lemon:Node>
+                </lemon:edge>
+                <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/VBZ"/>
+              </lemon:Node>
+            </lemon:edge>
+            <lemon:edge>
+              <lemon:Node rdf:about="unknown:/lexicon__en/has_obo_format_version#node__4">
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/has_obo_format_version#node__9">
+                    <lemon:edge>
+                      <lemon:Node rdf:about="unknown:/lexicon__en/has_obo_format_version#node__10">
+                        <lemon:leaf rdf:resource="unknown:/lexicon__en/has_obo_format_version#comp__4"/>
+                      </lemon:Node>
+                    </lemon:edge>
+                    <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NN"/>
+                  </lemon:Node>
+                </lemon:edge>
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/has_obo_format_version#node__7">
+                    <lemon:edge>
+                      <lemon:Node rdf:about="unknown:/lexicon__en/has_obo_format_version#node__8">
+                        <lemon:leaf rdf:resource="unknown:/lexicon__en/has_obo_format_version#comp__3"/>
+                      </lemon:Node>
+                    </lemon:edge>
+                    <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NN"/>
+                  </lemon:Node>
+                </lemon:edge>
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/has_obo_format_version#node__5">
+                    <lemon:edge>
+                      <lemon:Node rdf:about="unknown:/lexicon__en/has_obo_format_version#node__6">
+                        <lemon:leaf rdf:resource="unknown:/lexicon__en/has_obo_format_version#comp__2"/>
+                      </lemon:Node>
+                    </lemon:edge>
+                    <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/CD"/>
+                  </lemon:Node>
+                </lemon:edge>
+                <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NP"/>
+              </lemon:Node>
+            </lemon:edge>
+            <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/SINV"/>
+          </lemon:Node>
+        </lemon:phraseRoot>
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__en/has_obo_format_version#form">
+            <lemon:writtenRep xml:lang="en">has_obo_format_version</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__en/has_obo_format_version#sense">
+            <lemon:reference rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__en/has_obo_format_version#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__en/has"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__en/has_obo_format_version#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__en/obo"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__en/has_obo_format_version#comp__3">
+            <lemon:element rdf:resource="unknown:/lexicon__en/format"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__en/has_obo_format_version#comp__4">
+            <lemon:element rdf:resource="unknown:/lexicon__en/version"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/version">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__en/has_obo_format_version#form__5">
+            <lemon:writtenRep xml:lang="en">version</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun" xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"/>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/portion+of+cell+substance">
+        <lemon:phraseRoot>
+          <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Bcell%2Bsubstance#node">
+            <lemon:edge>
+              <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Bcell%2Bsubstance#node__2">
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Bcell%2Bsubstance#node__3">
+                    <lemon:edge>
+                      <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Bcell%2Bsubstance#node__4">
+                        <lemon:leaf rdf:resource="unknown:/lexicon__en/portion%2Bof%2Bcell%2Bsubstance#comp"/>
+                      </lemon:Node>
+                    </lemon:edge>
+                    <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NN"/>
+                  </lemon:Node>
+                </lemon:edge>
+                <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NP"/>
+              </lemon:Node>
+            </lemon:edge>
+            <lemon:edge>
+              <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Bcell%2Bsubstance#node__5">
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Bcell%2Bsubstance#node__6">
+                    <lemon:edge>
+                      <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Bcell%2Bsubstance#node__7">
+                        <lemon:leaf rdf:resource="unknown:/lexicon__en/portion%2Bof%2Bcell%2Bsubstance#comp__2"/>
+                      </lemon:Node>
+                    </lemon:edge>
+                    <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/IN"/>
+                  </lemon:Node>
+                </lemon:edge>
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Bcell%2Bsubstance#node__8">
+                    <lemon:edge>
+                      <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Bcell%2Bsubstance#node__9">
+                        <lemon:edge>
+                          <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Bcell%2Bsubstance#node__10">
+                            <lemon:leaf rdf:resource="unknown:/lexicon__en/portion%2Bof%2Bcell%2Bsubstance#comp__3"/>
+                          </lemon:Node>
+                        </lemon:edge>
+                        <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NN"/>
+                      </lemon:Node>
+                    </lemon:edge>
+                    <lemon:edge>
+                      <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Bcell%2Bsubstance#node__11">
+                        <lemon:edge>
+                          <lemon:Node rdf:about="unknown:/lexicon__en/portion%2Bof%2Bcell%2Bsubstance#node__12">
+                            <lemon:leaf rdf:resource="unknown:/lexicon__en/portion%2Bof%2Bcell%2Bsubstance#comp__4"/>
+                          </lemon:Node>
+                        </lemon:edge>
+                        <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NN"/>
+                      </lemon:Node>
+                    </lemon:edge>
+                    <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NP"/>
+                  </lemon:Node>
+                </lemon:edge>
+                <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/PP"/>
+              </lemon:Node>
+            </lemon:edge>
+            <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NP"/>
+          </lemon:Node>
+        </lemon:phraseRoot>
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__en/portion+of+cell+substance#form">
+            <lemon:writtenRep xml:lang="en">portion of cell substance</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lemon:synBehavior>
+          <lemon:Frame rdf:about="unknown:/lexicon__en/portion%2Bof%2Bcell%2Bsubstance#frame">
+            <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPredicateFrame"/>
+            <lexinfo:copulativeArg xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#">
+              <lemon:Argument rdf:about="unknown:/lexicon__en/portion%2Bof%2Bcell%2Bsubstance#arg"/>
+            </lexinfo:copulativeArg>
+          </lemon:Frame>
+        </lemon:synBehavior>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__en/portion%2Bof%2Bcell%2Bsubstance#sense">
+            <lemon:isA rdf:resource="unknown:/lexicon__en/portion%2Bof%2Bcell%2Bsubstance#arg"/>
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000063"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__en/portion%2Bof%2Bcell%2Bsubstance#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__en/portion"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__en/portion%2Bof%2Bcell%2Bsubstance#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__en/of"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__en/portion%2Bof%2Bcell%2Bsubstance#comp__3">
+            <lemon:element rdf:resource="unknown:/lexicon__en/cell"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__en/portion%2Bof%2Bcell%2Bsubstance#comp__4">
+            <lemon:element rdf:resource="unknown:/lexicon__en/substance"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__en/label">
+        <lemon:phraseRoot>
+          <lemon:Node rdf:about="unknown:/lexicon__en/label#node">
+            <lemon:edge>
+              <lemon:Node rdf:about="unknown:/lexicon__en/label#node__2">
+                <lemon:edge>
+                  <lemon:Node rdf:about="unknown:/lexicon__en/label#node__3"/>
+                </lemon:edge>
+                <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NN"/>
+              </lemon:Node>
+            </lemon:edge>
+            <lemon:constituent rdf:resource="http://monnetproject.deri.ie/tags/penn/node/NP"/>
+          </lemon:Node>
+        </lemon:phraseRoot>
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__en/label#form">
+            <lemon:writtenRep xml:lang="en">label</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun" xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"/>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__en/label#sense">
+            <lemon:reference rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+  </lemon:Lexicon>
+  <lemon:Lexicon rdf:about="unknown:/lexicon__fr" xmlns:lemon="http://www.monnet-project.eu/lemon#">
+    <lemon:language>fr</lemon:language>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__fr/treat-xrefs-as-equivalent">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__fr/treat-xrefs-as-equivalent#form">
+            <lemon:writtenRep xml:lang="fr">treat-xrefs-as-equivalent</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__fr/treat-xrefs-as-equivalent#sense">
+            <lemon:reference rdf:resource="http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-equivalent"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__fr/treat-xrefs-as-equivalent#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__fr/treat"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__fr/treat-xrefs-as-equivalent#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__fr/xrefs"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__fr/treat-xrefs-as-equivalent#comp__3">
+            <lemon:element rdf:resource="unknown:/lexicon__fr/as"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__fr/treat-xrefs-as-equivalent#comp__4">
+            <lemon:element rdf:resource="unknown:/lexicon__fr/equivalent"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__fr/xrefs">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__fr/treat-xrefs-as-equivalent#form__3">
+            <lemon:writtenRep xml:lang="fr">xrefs</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__fr/bundle">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__fr/neuron%2Bprojection%2Bbundle#form__3">
+            <lemon:writtenRep xml:lang="fr">bundle</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__fr/projection">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__fr/neuron%2Bprojection%2Bbundle#form__2">
+            <lemon:writtenRep xml:lang="fr">projection</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__fr/equivalent">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__fr/treat-xrefs-as-equivalent#form__5">
+            <lemon:writtenRep xml:lang="fr">equivalent</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__fr/component">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__fr/cell%2Bcomponent#form__2">
+            <lemon:writtenRep xml:lang="fr">component</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__fr/neuron+projection+bundle">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__fr/neuron+projection+bundle#form">
+            <lemon:writtenRep xml:lang="fr">neuron projection bundle</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__fr/neuron%2Bprojection%2Bbundle#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0001001"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__fr/neuron%2Bprojection%2Bbundle#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__fr/neuron"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__fr/neuron%2Bprojection%2Bbundle#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__fr/projection"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__fr/neuron%2Bprojection%2Bbundle#comp__3">
+            <lemon:element rdf:resource="unknown:/lexicon__fr/bundle"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__fr/default-namespace">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__fr/default-namespace#form">
+            <lemon:writtenRep xml:lang="fr">default-namespace</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__fr/default-namespace#sense">
+            <lemon:reference rdf:resource="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__fr/default-namespace#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__fr/default"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__fr/default-namespace#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__fr/namespace"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry rdf:resource="unknown:/lexicon__en/compound"/>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__fr/neuron">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__fr/neuron%2Bprojection%2Bbundle#form">
+            <lemon:writtenRep xml:lang="fr">neuron</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__fr/structure">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__fr/multi-cell-component%2Bstructure#form__4">
+            <lemon:writtenRep xml:lang="fr">structure</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__fr/definition">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__fr/definition#form">
+            <lemon:writtenRep xml:lang="fr">definition</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__fr/definition#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__fr/as">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__fr/treat-xrefs-as-equivalent#form__4">
+            <lemon:writtenRep xml:lang="fr">as</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__fr/multi">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__fr/multi-cell-component%2Bstructure#form">
+            <lemon:writtenRep xml:lang="fr">multi</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__fr/default">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__fr/default-namespace#form__2">
+            <lemon:writtenRep xml:lang="fr">default</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__fr/compound+organ+component">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__fr/compound+organ+component#form">
+            <lemon:writtenRep xml:lang="fr">compound organ component</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__fr/compound%2Borgan%2Bcomponent#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000019"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__fr/compound%2Borgan%2Bcomponent#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__en/compound"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__fr/compound%2Borgan%2Bcomponent#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__en/organ"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__fr/compound%2Borgan%2Bcomponent#comp__3">
+            <lemon:element rdf:resource="unknown:/lexicon__fr/component"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__fr/cell+component">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__fr/cell+component#form">
+            <lemon:writtenRep xml:lang="fr">cell component</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__fr/cell%2Bcomponent#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000014"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__fr/cell%2Bcomponent#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__en/cell"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__fr/cell%2Bcomponent#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__fr/component"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry rdf:resource="unknown:/lexicon__en/cell"/>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__fr/pairwise">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__fr/pairwise-disjoint#form__2">
+            <lemon:writtenRep xml:lang="fr">pairwise</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__fr/pairwise-disjoint">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__fr/pairwise-disjoint#form">
+            <lemon:writtenRep xml:lang="fr">pairwise-disjoint</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__fr/pairwise-disjoint#sense">
+            <lemon:reference rdf:resource="http://www.geneontology.org/formats/oboInOwl#pairwise-disjoint"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__fr/pairwise-disjoint#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__fr/pairwise"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__fr/pairwise-disjoint#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__fr/disjoint"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__fr/disjoint">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__fr/pairwise-disjoint#form__3">
+            <lemon:writtenRep xml:lang="fr">disjoint</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry rdf:resource="unknown:/lexicon__en/organ"/>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__fr/namespace">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__fr/default-namespace#form__3">
+            <lemon:writtenRep xml:lang="fr">namespace</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__fr/treat">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__fr/treat-xrefs-as-equivalent#form__2">
+            <lemon:writtenRep xml:lang="fr">treat</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__fr/multi-cell-component+structure">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__fr/multi-cell-component+structure#form">
+            <lemon:writtenRep xml:lang="fr">multi-cell-component structure</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__fr/multi-cell-component%2Bstructure#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0001000"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__fr/multi-cell-component%2Bstructure#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__fr/multi"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__fr/multi-cell-component%2Bstructure#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__en/cell"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__fr/multi-cell-component%2Bstructure#comp__3">
+            <lemon:element rdf:resource="unknown:/lexicon__fr/component"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__fr/multi-cell-component%2Bstructure#comp__4">
+            <lemon:element rdf:resource="unknown:/lexicon__fr/structure"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+  </lemon:Lexicon>
+  <lemon:Lexicon rdf:about="unknown:/lexicon__hu" xmlns:lemon="http://www.monnet-project.eu/lemon#">
+    <lemon:language>hu</lemon:language>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/organism+subdivision">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/organism+subdivision#form">
+            <lemon:writtenRep xml:lang="hu">organism subdivision</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__hu/organism%2Bsubdivision#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000032"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__hu/organism%2Bsubdivision#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/organism"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/organism%2Bsubdivision#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/subdivision"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/extraembryonic+structure">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/extraembryonic+structure#form">
+            <lemon:writtenRep xml:lang="hu">extraembryonic structure</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__hu/extraembryonic%2Bstructure#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000042"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__hu/extraembryonic%2Bstructure#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/extraembryonic"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/extraembryonic%2Bstructure#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/structure"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/database">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/database_cross_reference#form__5">
+            <lemon:writtenRep xml:lang="hu">databas</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:otherForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/database_cross_reference#form__2">
+            <lemon:writtenRep xml:lang="hu">database</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:otherForm>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/simple+organ">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/simple+organ#form">
+            <lemon:writtenRep xml:lang="hu">simple organ</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__hu/simple%2Borgan#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000021"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__hu/simple%2Borgan#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/simple"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/simple%2Borgan#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/organ"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/atypical">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/atypical%2Bepithelium#form">
+            <lemon:writtenRep xml:lang="hu">atypical</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/anatomical+system">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/anatomical+system#form">
+            <lemon:writtenRep xml:lang="hu">anatomical system</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__hu/anatomical%2Bsystem#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000011"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__hu/anatomical%2Bsystem#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__it/anatomical"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/anatomical%2Bsystem#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/system"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/has_related_synonym">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/has_related_synonym#form">
+            <lemon:writtenRep xml:lang="hu">has_related_synonym</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__hu/has_related_synonym#sense">
+            <lemon:reference rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__hu/has_related_synonym#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__es/has"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/has_related_synonym#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/related"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/has_related_synonym#comp__3">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/synonym"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/protogynous">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/protogynous%2Bhermaphroditic%2Borganism#form">
+            <lemon:writtenRep xml:lang="hu">protogynous</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/anatomical+point">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/anatomical+point#form">
+            <lemon:writtenRep xml:lang="hu">anatomical point</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__hu/anatomical%2Bpoint#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000009"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__hu/anatomical%2Bpoint#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__it/anatomical"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/anatomical%2Bpoint#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/point"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/subdivision">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/organism%2Bsubdivision#form__4">
+            <lemon:writtenRep xml:lang="hu">subdivis</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:otherForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/organism%2Bsubdivision#form__2">
+            <lemon:writtenRep xml:lang="hu">subdivision</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:otherForm>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/simple+columnar+epithlium">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/simple+columnar+epithlium#form">
+            <lemon:writtenRep xml:lang="hu">simple columnar epithlium</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__hu/simple%2Bcolumnar%2Bepithlium#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000068"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__hu/simple%2Bcolumnar%2Bepithlium#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/simple"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/simple%2Bcolumnar%2Bepithlium#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/columnar"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/simple%2Bcolumnar%2Bepithlium#comp__3">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/epithlium"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/gonochoristic">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/gonochoristic%2Borganism#form">
+            <lemon:writtenRep xml:lang="hu">gonochoristic</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/organ">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/simple%2Borgan#form__4">
+            <lemon:writtenRep xml:lang="hu">org</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:otherForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/simple%2Borgan#form__2">
+            <lemon:writtenRep xml:lang="hu">organ</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:otherForm>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/has_exact_synonym">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/has_exact_synonym#form">
+            <lemon:writtenRep xml:lang="hu">has_exact_synonym</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__hu/has_exact_synonym#sense">
+            <lemon:reference rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__hu/has_exact_synonym#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__es/has"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/has_exact_synonym#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/exact"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/has_exact_synonym#comp__3">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/synonym"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/male">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/male%2Borganism#form__3">
+            <lemon:writtenRep xml:lang="hu">mal</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:otherForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/male%2Borganism#form">
+            <lemon:writtenRep xml:lang="hu">male</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:otherForm>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/extraembryonic">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/extraembryonic%2Bstructure#form">
+            <lemon:writtenRep xml:lang="hu">extraembryonic</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/atypical+epithelium">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/atypical+epithelium#form">
+            <lemon:writtenRep xml:lang="hu">atypical epithelium</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__hu/atypical%2Bepithelium#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000071"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__hu/atypical%2Bepithelium#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/atypical"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/atypical%2Bepithelium#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/epithelium"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/basal+lamina">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/basal+lamina#form">
+            <lemon:writtenRep xml:lang="hu">basal lamina</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__hu/basal%2Blamina#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000065"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__hu/basal%2Blamina#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/basal"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/basal%2Blamina#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/lamina"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/epithelium">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/simple%2Bcuboidal%2Bepithelium#form__5">
+            <lemon:writtenRep xml:lang="hu">epitheliu</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__hu/epithelium__4#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000066"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:otherForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/simple%2Bcuboidal%2Bepithelium#form__3">
+            <lemon:writtenRep xml:lang="hu">epithelium</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:otherForm>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/point">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/anatomical%2Bpoint#form__3">
+            <lemon:writtenRep xml:lang="hu">poin</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:otherForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/anatomical%2Bpoint#form__2">
+            <lemon:writtenRep xml:lang="hu">point</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:otherForm>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/columnar">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/simple%2Bcolumnar%2Bepithlium#form__2">
+            <lemon:writtenRep xml:lang="hu">columnar</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__it/anatomical">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/anatomical%2Bgroup#form">
+            <lemon:writtenRep xml:lang="hu">anatomical</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/multilaminar">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/multilaminar%2Bepithelium#form">
+            <lemon:writtenRep xml:lang="hu">multilaminar</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/multi">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/multi-cellular%2Borganism#form__4">
+            <lemon:writtenRep xml:lang="hu">mult</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:otherForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/multi-cellular%2Borganism#form">
+            <lemon:writtenRep xml:lang="hu">multi</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:otherForm>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/protandrous">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/protandrous%2Bhermaphroditic%2Borganism#form">
+            <lemon:writtenRep xml:lang="hu">protandrous</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/sequential">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/sequential%2Bhermaphroditic%2Borganism#form">
+            <lemon:writtenRep xml:lang="hu">sequential</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/hermaphroditic">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/protogynous%2Bhermaphroditic%2Borganism#form__2">
+            <lemon:writtenRep xml:lang="hu">hermaphroditic</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/simple+cuboidal+epithelium">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/simple+cuboidal+epithelium#form">
+            <lemon:writtenRep xml:lang="hu">simple cuboidal epithelium</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__hu/simple%2Bcuboidal%2Bepithelium#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000067"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__hu/simple%2Bcuboidal%2Bepithelium#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/simple"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/simple%2Bcuboidal%2Bepithelium#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/cuboidal"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/simple%2Bcuboidal%2Bepithelium#comp__3">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/epithelium"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/asexual+organism">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/asexual+organism#form">
+            <lemon:writtenRep xml:lang="hu">asexual organism</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__hu/asexual%2Borganism#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000030"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__hu/asexual%2Borganism#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/asexual"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/asexual%2Borganism#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/organism"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/protogynous+hermaphroditic+organism">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/protogynous+hermaphroditic+organism#form">
+            <lemon:writtenRep xml:lang="hu">protogynous hermaphroditic organism</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__hu/protogynous%2Bhermaphroditic%2Borganism#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000050"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__hu/protogynous%2Bhermaphroditic%2Borganism#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/protogynous"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/protogynous%2Bhermaphroditic%2Borganism#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/hermaphroditic"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/protogynous%2Bhermaphroditic%2Borganism#comp__3">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/organism"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/database_cross_reference">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/database_cross_reference#form">
+            <lemon:writtenRep xml:lang="hu">database_cross_reference</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__hu/database_cross_reference#sense">
+            <lemon:reference rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__hu/database_cross_reference#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/database"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/database_cross_reference#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/cross"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/database_cross_reference#comp__3">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/reference"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/female+organism">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/female+organism#form">
+            <lemon:writtenRep xml:lang="hu">female organism</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__hu/female%2Borganism#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000028"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__hu/female%2Borganism#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/female"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/female%2Borganism#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/organism"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/lamina">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/basal%2Blamina#form__3">
+            <lemon:writtenRep xml:lang="hu">lamin</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:otherForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/basal%2Blamina#form__2">
+            <lemon:writtenRep xml:lang="hu">lamina</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:otherForm>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/cross">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/database_cross_reference#form__3">
+            <lemon:writtenRep xml:lang="hu">cross</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/cellular">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/multi-cellular%2Borganism#form__2">
+            <lemon:writtenRep xml:lang="hu">cellular</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/tissue">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/multi-tissue%2Bstructure#form__5">
+            <lemon:writtenRep xml:lang="hu">tissu</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:otherForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/multi-tissue%2Bstructure#form__2">
+            <lemon:writtenRep xml:lang="hu">tissue</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:otherForm>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/multi-cellular+organism">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/multi-cellular+organism#form">
+            <lemon:writtenRep xml:lang="hu">multi-cellular organism</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__hu/multi-cellular%2Borganism#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000012"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__hu/multi-cellular%2Borganism#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/multi"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/multi-cellular%2Borganism#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/cellular"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/multi-cellular%2Borganism#comp__3">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/organism"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/basal">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/basal%2Blamina#form">
+            <lemon:writtenRep xml:lang="hu">basal</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/multilaminar+epithelium">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/multilaminar+epithelium#form">
+            <lemon:writtenRep xml:lang="hu">multilaminar epithelium</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__hu/multilaminar%2Bepithelium#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000069"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__hu/multilaminar%2Bepithelium#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/multilaminar"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/multilaminar%2Bepithelium#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/epithelium"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/female">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/female%2Borganism#form__3">
+            <lemon:writtenRep xml:lang="hu">femal</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:otherForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/female%2Borganism#form">
+            <lemon:writtenRep xml:lang="hu">female</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:otherForm>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/synchronous+hermaphroditic+organism">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/synchronous+hermaphroditic+organism#form">
+            <lemon:writtenRep xml:lang="hu">synchronous hermaphroditic organism</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__hu/synchronous%2Bhermaphroditic%2Borganism#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000046"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__hu/synchronous%2Bhermaphroditic%2Borganism#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/synchronous"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/synchronous%2Bhermaphroditic%2Borganism#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/hermaphroditic"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/synchronous%2Bhermaphroditic%2Borganism#comp__3">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/organism"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/cuboidal">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/simple%2Bcuboidal%2Bepithelium#form__2">
+            <lemon:writtenRep xml:lang="hu">cuboidal</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/protandrous+hermaphroditic+organism">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/protandrous+hermaphroditic+organism#form">
+            <lemon:writtenRep xml:lang="hu">protandrous hermaphroditic organism</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__hu/protandrous%2Bhermaphroditic%2Borganism#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000049"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__hu/protandrous%2Bhermaphroditic%2Borganism#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/protandrous"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/protandrous%2Bhermaphroditic%2Borganism#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/hermaphroditic"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/protandrous%2Bhermaphroditic%2Borganism#comp__3">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/organism"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/simple">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/simple%2Bcuboidal%2Bepithelium#form__4">
+            <lemon:writtenRep xml:lang="hu">simpl</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:otherForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/simple%2Bcuboidal%2Bepithelium#form">
+            <lemon:writtenRep xml:lang="hu">simple</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:otherForm>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/multi-tissue+structure">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/multi-tissue+structure#form">
+            <lemon:writtenRep xml:lang="hu">multi-tissue structure</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__hu/multi-tissue%2Bstructure#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000055"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__hu/multi-tissue%2Bstructure#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/multi"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/multi-tissue%2Bstructure#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/tissue"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/multi-tissue%2Bstructure#comp__3">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/structure"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/group">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/anatomical%2Bgroup#form__2">
+            <lemon:writtenRep xml:lang="hu">group</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/gonochoristic+organism">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/gonochoristic+organism#form">
+            <lemon:writtenRep xml:lang="hu">gonochoristic organism</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__hu/gonochoristic%2Borganism#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000048"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__hu/gonochoristic%2Borganism#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/gonochoristic"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/gonochoristic%2Borganism#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/organism"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/sequential+hermaphroditic+organism">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/sequential+hermaphroditic+organism#form">
+            <lemon:writtenRep xml:lang="hu">sequential hermaphroditic organism</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__hu/sequential%2Bhermaphroditic%2Borganism#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000045"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__hu/sequential%2Bhermaphroditic%2Borganism#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/sequential"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/sequential%2Bhermaphroditic%2Borganism#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/hermaphroditic"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/sequential%2Bhermaphroditic%2Borganism#comp__3">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/organism"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/unilaminar">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/unilaminar%2Bepithelium#form">
+            <lemon:writtenRep xml:lang="hu">unilaminar</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/anatomical+group">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/anatomical+group#form">
+            <lemon:writtenRep xml:lang="hu">anatomical group</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__hu/anatomical%2Bgroup#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000054"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__hu/anatomical%2Bgroup#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__it/anatomical"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/anatomical%2Bgroup#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/group"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__es/has">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/has_exact_synonym#form__2">
+            <lemon:writtenRep xml:lang="hu">has</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/system">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/anatomical%2Bsystem#form__2">
+            <lemon:writtenRep xml:lang="hu">system</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/exact">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/has_exact_synonym#form__5">
+            <lemon:writtenRep xml:lang="hu">exac</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:otherForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/has_exact_synonym#form__3">
+            <lemon:writtenRep xml:lang="hu">exact</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:otherForm>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/epithlium">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/simple%2Bcolumnar%2Bepithlium#form__5">
+            <lemon:writtenRep xml:lang="hu">epithliu</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:otherForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/simple%2Bcolumnar%2Bepithlium#form__3">
+            <lemon:writtenRep xml:lang="hu">epithlium</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:otherForm>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/synonym">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/has_exact_synonym#form__6">
+            <lemon:writtenRep xml:lang="hu">synony</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:otherForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/has_exact_synonym#form__4">
+            <lemon:writtenRep xml:lang="hu">synonym</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:otherForm>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/synchronous">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/synchronous%2Bhermaphroditic%2Borganism#form">
+            <lemon:writtenRep xml:lang="hu">synchronous</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/organism">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/protogynous%2Bhermaphroditic%2Borganism#form__4">
+            <lemon:writtenRep xml:lang="hu">organis</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:otherForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/protogynous%2Bhermaphroditic%2Borganism#form__3">
+            <lemon:writtenRep xml:lang="hu">organism</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:otherForm>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/hermaphroditic+organism">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/hermaphroditic+organism#form">
+            <lemon:writtenRep xml:lang="hu">hermaphroditic organism</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__hu/hermaphroditic%2Borganism#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000029"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__hu/hermaphroditic%2Borganism#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/hermaphroditic"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/hermaphroditic%2Borganism#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/organism"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/structure">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/multi-tissue%2Bstructure#form__6">
+            <lemon:writtenRep xml:lang="hu">structu</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:otherForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/multi-tissue%2Bstructure#form__3">
+            <lemon:writtenRep xml:lang="hu">structure</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:otherForm>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/asexual">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/asexual%2Borganism#form">
+            <lemon:writtenRep xml:lang="hu">asexual</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/unilaminar+epithelium">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/unilaminar+epithelium#form">
+            <lemon:writtenRep xml:lang="hu">unilaminar epithelium</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__hu/unilaminar%2Bepithelium#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000073"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__hu/unilaminar%2Bepithelium#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/unilaminar"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/unilaminar%2Bepithelium#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/epithelium"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/male+organism">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/male+organism#form">
+            <lemon:writtenRep xml:lang="hu">male organism</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__hu/male%2Borganism#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000027"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__hu/male%2Borganism#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/male"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__hu/male%2Borganism#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__hu/organism"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/reference">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/database_cross_reference#form__6">
+            <lemon:writtenRep xml:lang="hu">referenc</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:otherForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/database_cross_reference#form__4">
+            <lemon:writtenRep xml:lang="hu">reference</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:otherForm>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__hu/related">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/has_related_synonym#form__5">
+            <lemon:writtenRep xml:lang="hu">relat</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:otherForm>
+          <lemon:Form rdf:about="unknown:/lexicon__hu/has_related_synonym#form__3">
+            <lemon:writtenRep xml:lang="hu">related</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:otherForm>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+  </lemon:Lexicon>
+  <lemon:Lexicon rdf:about="unknown:/lexicon__it" xmlns:lemon="http://www.monnet-project.eu/lemon#">
+    <lemon:language>it</lemon:language>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__it/anatomical+line">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__it/anatomical+line#form">
+            <lemon:writtenRep xml:lang="it">anatomical line</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__it/anatomical%2Bline#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000008"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__it/anatomical%2Bline#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__it/anatomical"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__it/anatomical%2Bline#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__it/line"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__it/line">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__it/anatomical%2Bline#form__3">
+            <lemon:writtenRep xml:lang="it">lin</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:otherForm>
+          <lemon:Form rdf:about="unknown:/lexicon__it/anatomical%2Bline#form__2">
+            <lemon:writtenRep xml:lang="it">line</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:otherForm>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__it/cell+space">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__it/cell+space#form">
+            <lemon:writtenRep xml:lang="it">cell space</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__it/cell%2Bspace#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000062"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__it/cell%2Bspace#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__en/cell"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__it/cell%2Bspace#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__es/space"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry rdf:resource="unknown:/lexicon__en/cell"/>
+    <lemon:entry rdf:resource="unknown:/lexicon__it/anatomical"/>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__es/space">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__it/cell%2Bspace#form__3">
+            <lemon:writtenRep xml:lang="it">spac</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:otherForm>
+          <lemon:Form rdf:about="unknown:/lexicon__it/cell%2Bspace#form__2">
+            <lemon:writtenRep xml:lang="it">space</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:otherForm>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+  </lemon:Lexicon>
+  <lemon:Lexicon rdf:about="unknown:/lexicon__es" xmlns:lemon="http://www.monnet-project.eu/lemon#">
+    <lemon:language>es</lemon:language>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__es/acellular">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__es/acellular%2Banatomical%2Bstructure#form__4">
+            <lemon:writtenRep xml:lang="es">acellul</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:otherForm>
+          <lemon:Form rdf:about="unknown:/lexicon__es/acellular%2Banatomical%2Bstructure#form">
+            <lemon:writtenRep xml:lang="es">acellular</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:otherForm>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__es/surface">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__es/anatomical%2Bsurface#form__3">
+            <lemon:writtenRep xml:lang="es">surfac</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:otherForm>
+          <lemon:Form rdf:about="unknown:/lexicon__es/anatomical%2Bsurface#form__2">
+            <lemon:writtenRep xml:lang="es">surface</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:otherForm>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__es/anatomical+structure">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__es/anatomical+structure#form">
+            <lemon:writtenRep xml:lang="es">anatomical structure</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__es/anatomical%2Bstructure#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__es/anatomical%2Bstructure#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__it/anatomical"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__es/anatomical%2Bstructure#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__es/structure"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry rdf:resource="unknown:/lexicon__en/compound"/>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__es/immaterial+anatomical+entity">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__es/immaterial+anatomical+entity#form">
+            <lemon:writtenRep xml:lang="es">immaterial anatomical entity</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__es/immaterial%2Banatomical%2Bentity#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000007"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__es/immaterial%2Banatomical%2Bentity#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__es/immaterial"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__es/immaterial%2Banatomical%2Bentity#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__it/anatomical"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__es/immaterial%2Banatomical%2Bentity#comp__3">
+            <lemon:element rdf:resource="unknown:/lexicon__es/entity"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__es/acellular+anatomical+structure">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__es/acellular+anatomical+structure#form">
+            <lemon:writtenRep xml:lang="es">acellular anatomical structure</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__es/acellular%2Banatomical%2Bstructure#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000040"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__es/acellular%2Banatomical%2Bstructure#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__es/acellular"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__es/acellular%2Banatomical%2Bstructure#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__it/anatomical"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__es/acellular%2Banatomical%2Bstructure#comp__3">
+            <lemon:element rdf:resource="unknown:/lexicon__es/structure"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__es/solid">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__es/solid%2Bcompound%2Borgan#form__4">
+            <lemon:writtenRep xml:lang="es">sol</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:otherForm>
+          <lemon:Form rdf:about="unknown:/lexicon__es/solid%2Bcompound%2Borgan#form">
+            <lemon:writtenRep xml:lang="es">solid</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:otherForm>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__es/quality">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__es/has_quality#form__3">
+            <lemon:writtenRep xml:lang="es">quality</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__es/anatomical+space">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__es/anatomical+space#form">
+            <lemon:writtenRep xml:lang="es">anatomical space</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__es/anatomical%2Bspace#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000005"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__es/anatomical%2Bspace#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__it/anatomical"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__es/anatomical%2Bspace#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__es/space"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry rdf:resource="unknown:/lexicon__es/has"/>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__es/entity">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__es/anatomical%2Bentity#form__2">
+            <lemon:writtenRep xml:lang="es">entity</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__es/has_quality">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__es/has_quality#form">
+            <lemon:writtenRep xml:lang="es">has_quality</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__es/has_quality#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/caro/src/caro.obo#has_quality"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__es/has_quality#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__es/has"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__es/has_quality#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__es/quality"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry rdf:resource="unknown:/lexicon__it/anatomical"/>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__es/structure">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__es/acellular%2Banatomical%2Bstructure#form__5">
+            <lemon:writtenRep xml:lang="es">structur</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:otherForm>
+          <lemon:Form rdf:about="unknown:/lexicon__es/acellular%2Banatomical%2Bstructure#form__3">
+            <lemon:writtenRep xml:lang="es">structure</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:otherForm>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__es/immaterial">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__es/immaterial%2Banatomical%2Bentity#form">
+            <lemon:writtenRep xml:lang="es">immaterial</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__es/solid+compound+organ">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__es/solid+compound+organ#form">
+            <lemon:writtenRep xml:lang="es">solid compound organ</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__es/solid%2Bcompound%2Borgan#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000074"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__es/solid%2Bcompound%2Borgan#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__es/solid"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__es/solid%2Bcompound%2Borgan#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__en/compound"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__es/solid%2Bcompound%2Borgan#comp__3">
+            <lemon:element rdf:resource="unknown:/lexicon__en/organ"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry rdf:resource="unknown:/lexicon__en/organ"/>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__es/material">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__es/material%2Banatomical%2Bentity#form">
+            <lemon:writtenRep xml:lang="es">material</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__es/anatomical+surface">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__es/anatomical+surface#form">
+            <lemon:writtenRep xml:lang="es">anatomical surface</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__es/anatomical%2Bsurface#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000010"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__es/anatomical%2Bsurface#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__it/anatomical"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__es/anatomical%2Bsurface#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__es/surface"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__es/cluster">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__es/anatomical%2Bcluster#form__3">
+            <lemon:writtenRep xml:lang="es">clust</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:otherForm>
+          <lemon:Form rdf:about="unknown:/lexicon__es/anatomical%2Bcluster#form__2">
+            <lemon:writtenRep xml:lang="es">cluster</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:otherForm>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__es/material+anatomical+entity">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__es/material+anatomical+entity#form">
+            <lemon:writtenRep xml:lang="es">material anatomical entity</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__es/material%2Banatomical%2Bentity#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__es/material%2Banatomical%2Bentity#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__es/material"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__es/material%2Banatomical%2Bentity#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__it/anatomical"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__es/material%2Banatomical%2Bentity#comp__3">
+            <lemon:element rdf:resource="unknown:/lexicon__es/entity"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__es/anatomical+entity">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__es/anatomical+entity#form">
+            <lemon:writtenRep xml:lang="es">anatomical entity</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__es/anatomical%2Bentity#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000000"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__es/anatomical%2Bentity#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__it/anatomical"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__es/anatomical%2Bentity#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__es/entity"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry rdf:resource="unknown:/lexicon__es/space"/>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:about="unknown:/lexicon__es/anatomical+cluster">
+        <lemon:canonicalForm>
+          <lemon:Form rdf:about="unknown:/lexicon__es/anatomical+cluster#form">
+            <lemon:writtenRep xml:lang="es">anatomical cluster</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <reviewstatus rdf:resource="http://monnetproject.deri.ie/reviewstatus/autoreview" xmlns="http://monnetproject.deri.ie/"/>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:about="unknown:/lexicon__es/anatomical%2Bcluster#sense">
+            <lemon:reference rdf:resource="http://purl.obolibrary.org/obo/CARO_0000041"/>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:decomposition xmlns:ns0="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns0:parseType="Collection">
+          <lemon:Component rdf:about="unknown:/lexicon__es/anatomical%2Bcluster#comp">
+            <lemon:element rdf:resource="unknown:/lexicon__it/anatomical"/>
+          </lemon:Component>
+          <lemon:Component rdf:about="unknown:/lexicon__es/anatomical%2Bcluster#comp__2">
+            <lemon:element rdf:resource="unknown:/lexicon__es/cluster"/>
+          </lemon:Component>
+        </lemon:decomposition>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+  </lemon:Lexicon>
+</rdf:RDF>

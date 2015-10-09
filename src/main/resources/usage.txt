@@ -1,0 +1,4 @@
+java -jar translationAdder.jar data/lemon/caro.owl data/lemon/caro.owl.csv data/lemon/caroOtto.owl
+
+java -jar lemonator.jar data/lemon/caroOtto.owl data/lemon/caroOttoLemonLexicon.ttl
+
